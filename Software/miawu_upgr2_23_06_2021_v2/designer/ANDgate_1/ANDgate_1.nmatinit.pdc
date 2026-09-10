@@ -1,0 +1,26 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP3 11.8.3.6
+
+# Design Name: ANDgate_1 
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL005 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Fri Mar 15 12:38:57 2019 
+
+
+#
+# I/O constraints
+#
+
+set_io A -DIRECTION INPUT -pinname 136 -fixed no
+set_io B -DIRECTION INPUT -pinname 2 -fixed no
+set_io C -DIRECTION OUTPUT -pinname 144 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location C -fixed no 14 51

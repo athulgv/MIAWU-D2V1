@@ -1,0 +1,14 @@
+Software Version: 2024.1.0.3
+Opened 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP_fp\TOP.pro'
+PDB file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP.pdb' has been loaded successfully.
+DESIGN : TOP;  CHECKSUM : 85BC;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version will be programmed to 0 with this bitstream.
+File/Folder 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP.ppd'; file programs Fabric.
+Fabric component bitstream digest: 90a8ea30910fbda1d225de3417db9c4d1efa008d4601f3d4eb04a5be4d4c4d4c
+Entire bitstream digest: c243eb999450457e60ac0b8dd9fa169c21082a8207cbb16ee3a1590cdadd1094
+Finished: Thu Sep 10 15:21:14 2026 (Elapsed time 00:00:04)
+
+Project saved.
+Project closed.

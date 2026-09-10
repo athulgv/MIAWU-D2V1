@@ -1,0 +1,10 @@
+# Microchip Technology Inc.
+# Date: 2026-Sep-10 15:18:06
+# This file was generated based on the following SDC source files:
+#   E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/constraint/user.sdc
+#
+
+create_clock -name {XTL} -period 31250 -waveform {0 15625 } [ get_ports { XTL } ]
+create_generated_clock -name {clkout1_} -divide_by 4000 -source [ get_ports { XTL } ] [ get_nets { clkdiv_0.clkout1 } ]
+create_generated_clock -name {CLK2} -divide_by 15 -source [ get_ports { XTL } ] [ get_nets { clkdiv_0.clkout2 } ]
+create_generated_clock -name {clkout3} -divide_by 16000 -source [ get_ports { XTL } ] [ get_nets { clkdiv_0.clkout3 } ]

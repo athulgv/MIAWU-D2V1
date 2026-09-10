@@ -1,0 +1,17 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                           CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+----------------------------------------------------------------------------------------------------------------------------
+clkdiv_0_clkout1                   171             0                   1              172              YES                  
+clkdiv_0_clkout2                   109             0                   1              110              YES                  
+OSC_0_XTLOSC_O2F                   43              0                   0              43               YES                  
+main_file_0.fclock                 27              0                   0              27               YES                  
+main_file_0.module_j_inst.sig3     15              0                   10             25               YES                  
+main_file_0.un91_din_data          8               0                   17             25               YES                  
+RDY_c                              3               0                   30             33               YES                  
+============================================================================================================================

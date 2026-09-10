@@ -1,0 +1,1102 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/SYSTEMS AIDS_18Feb2019/miawu_main_v1_15march19/simulation
+Eandgate_1
+Z1 w1552048523
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/simulation
+Z7 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/andgate_1.vhd
+Z8 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/andgate_1.vhd
+l0
+L6
+V89jhDP1N<A;nO2VGZ@aMj3
+!s100 JOfU2ja^c^5>>ML=lIDH82
+Z9 OW;C;10.5c;63
+33
+Z10 !s110 1553074659
+!i10b 1
+Z11 !s108 1553074659.000000
+Z12 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/andgate_1.vhd|
+Z13 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/andgate_1.vhd|
+!i113 1
+Z14 o-2008 -explicit -work presynth -O0
+Z15 tCvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 andgate_1 0 22 89jhDP1N<A;nO2VGZ@aMj3
+l12
+L11
+VcPcd^91=jYE2LWzg5b=VI3
+!s100 ncGUY@iTDJPZzO2Pn4LSf2
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ccfg_tb_fault_input
+etb_fault_input
+atb
+R2
+R3
+Z16 DEx4 work 11 fault_input 0 22 OP924<bmGl>FPlBdhL0[73
+DAx4 work 14 tb_fault_input 2 tb 22 WKB60eLA6U6>3kXWBAX9P2
+R4
+Z17 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z18 DEx4 work 14 tb_fault_input 0 22 0e69BaWehGPIPgJ^fMZX^3
+Z19 w1624277928
+Z20 dF:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/simulation
+Z21 8F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/stimulus/tb_faul.vhd
+Z22 FF:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/stimulus/tb_faul.vhd
+l0
+L85
+VfNi147ai;;R35QfeSH@nz2
+!s100 cc:3PVV>ZHIhS0Kfj6=YJ3
+Z23 OW;C;2019.2;69
+33
+Z24 !s110 1624278362
+!i10b 0
+Z25 !s108 1624278362.000000
+Z26 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/stimulus/tb_faul.vhd|
+Z27 !s107 F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/stimulus/tb_faul.vhd|
+!i113 1
+R14
+R15
+Eclkdiv
+Z28 w1552645957
+R3
+R2
+R4
+R5
+Z29 dF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/simulation
+Z30 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/hdl/clv_div.vhd
+Z31 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/hdl/clv_div.vhd
+l0
+L25
+V_Xio]=4G7VIzW6elK2kh63
+!s100 0aeO6g@ESKj_`j]2QGJ>E1
+R9
+33
+Z32 !s110 1552706758
+!i10b 1
+Z33 !s108 1552706757.000000
+Z34 !s90 -2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/hdl/clv_div.vhd|
+Z35 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/hdl/clv_div.vhd|
+!i113 1
+R14
+R15
+Ac1
+R3
+R2
+R4
+R5
+DEx4 work 6 clkdiv 0 22 _Xio]=4G7VIzW6elK2kh63
+l40
+L34
+VZ1hPVHVS2;>JK=VFcOV8c0
+!s100 D0BDieTiQL2FIG`B>9iZe1
+R9
+33
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R14
+R15
+Ecounter
+Z36 w1551877962
+R2
+R3
+R4
+R5
+R6
+Z37 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_FF.vhd
+Z38 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_FF.vhd
+l0
+L78
+Vo8[_Sz<1K8alPhVZ=`H1B2
+!s100 =d>m=mkWZFW5HohNoi=2Z2
+R9
+33
+Z39 !s110 1553074660
+!i10b 1
+Z40 !s108 1553074660.000000
+Z41 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_FF.vhd|
+Z42 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_FF.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 7 counter 0 22 o8[_Sz<1K8alPhVZ=`H1B2
+l92
+L88
+V2_TfW1Q48^b1BUU60J[3W0
+!s100 _YJfiGlPzLNHi`MFGMk^W0
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Ecounter256
+R36
+R2
+R3
+R4
+R5
+R6
+R37
+R38
+l0
+L208
+Vi<EYDeX]eOF]jP@H8:RV>3
+!s100 UYNf89_8VXAJOd>f06mAU2
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 10 counter256 0 22 i<EYDeX]eOF]jP@H8:RV>3
+l223
+L219
+VI9YhCX[F5AG?@Y620>DjZ3
+!s100 OFnc86_?L4YCI?[l1D<T93
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Ecounter32
+R36
+R2
+R3
+R4
+R5
+R6
+R37
+R38
+l0
+L166
+VB_`0jnHiGoJ5;_;eRk`Ke3
+!s100 0V[jLf9J4kXo^UKHND0JR2
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 9 counter32 0 22 B_`0jnHiGoJ5;_;eRk`Ke3
+l180
+L176
+VoSKeJkIT56T0aEzXQmG192
+!s100 [b;i@MZHa8MLd?nmSG8`22
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Ecounter_12
+R36
+R2
+R3
+R4
+R5
+R6
+R37
+R38
+l0
+L127
+V;NLh=aXgYER`@:lP<KN;z3
+!s100 HH4VMDRO_iLbl=UiILGAD2
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 10 counter_12 0 22 ;NLh=aXgYER`@:lP<KN;z3
+l141
+L137
+V^H@hMaEdFoIVH5CIh@fd]2
+!s100 ]UG7R`IN]LkE;0L30CT6G0
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Ed_ff
+R36
+R3
+R2
+R4
+R5
+R6
+R37
+R38
+l0
+L24
+Vnk?Xf<4:U0HR7i^JN[c2d1
+!s100 178LaVc9E>:W^<gQb4;Z?2
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 4 d_ff 0 22 nk?Xf<4:U0HR7i^JN[c2d1
+l37
+L33
+V83VW^@MjU[`;_Md@YVO;g3
+!s100 8==eCogb:Y^7cjdgcK1UJ3
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Edecoder3x8
+Z43 w1551942689
+R3
+R2
+R4
+R5
+R6
+Z44 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_3_23Feb2019.vhd
+Z45 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_3_23Feb2019.vhd
+l0
+L6
+VbN?I8j2mbdMfIYZ5nL65`0
+!s100 [Fh0:4_A17ncAYj>4gBbl0
+R9
+33
+Z46 !s110 1553074658
+!i10b 1
+Z47 !s108 1553074658.000000
+Z48 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_3_23Feb2019.vhd|
+Z49 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/D_3_23Feb2019.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 10 decoder3x8 0 22 bN?I8j2mbdMfIYZ5nL65`0
+l13
+L11
+VjW@F5K0J4bezCoONG6d7R3
+!s100 <]R;`VIf:XUiP1QbIj=M41
+R9
+33
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R14
+R15
+Ef1_input
+Z50 w1553072611
+R3
+R2
+R4
+R5
+R6
+Z51 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/f1_input.vhd
+Z52 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/f1_input.vhd
+l0
+L7
+V<:Y:2hfE4aK4^[NH0iSLL3
+!s100 hFLe<8jRoEM`z^[YS9XHz2
+R9
+33
+R46
+!i10b 1
+R47
+Z53 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/f1_input.vhd|
+Z54 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/f1_input.vhd|
+!i113 1
+R14
+R15
+Aarc
+R3
+R2
+R4
+R5
+DEx4 work 8 f1_input 0 22 <:Y:2hfE4aK4^[NH0iSLL3
+l24
+L19
+VVPjnf_^WdJkAddHfkPP9o1
+!s100 J>znfXbU<CzJL@DWlTkiF2
+R9
+33
+R46
+!i10b 1
+R47
+R53
+R54
+!i113 1
+R14
+R15
+Efault_input
+Z55 w1624278335
+R3
+R2
+R4
+R17
+R20
+Z56 8F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/hdl/input_faults.vhd
+Z57 FF:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/hdl/input_faults.vhd
+l0
+L8
+VOP924<bmGl>FPlBdhL0[73
+!s100 <BHe0W@df59ENkjaj501H1
+R23
+33
+R24
+!i10b 1
+R25
+Z58 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/hdl/input_faults.vhd|
+Z59 !s107 F:/SYSTEMS AIDS/Miawu/UPGRADATION 2/FINAL BACKUP/MIAWU_UPGRADATION2/hdl/input_faults.vhd|
+!i113 1
+R14
+R15
+Aarc
+R3
+R2
+R4
+R17
+R16
+l30
+L22
+VDinAMJm5EhoXo=REL@nm@2
+!s100 SJ<_Wn0kPIZj7IF]HoV4L1
+R23
+33
+R24
+!i10b 1
+R25
+R58
+R59
+!i113 1
+R14
+R15
+Eff_r
+R36
+R3
+R2
+R4
+R5
+R6
+R37
+R38
+l0
+L54
+VLBg^EHNJi6nolKJeAmog@1
+!s100 AdW0Rb79Kfh69`cY1dZEP2
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 4 ff_r 0 22 LBg^EHNJi6nolKJeAmog@1
+l60
+L59
+VWbgPXL3GXSlkkS5z1RVGJ0
+!s100 Ohn4`7SSleX8B78IDd>L81
+R9
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R14
+R15
+Efpm
+Z60 w1552647391
+R4
+R5
+Z61 dF:/SYSTEMS AIDS_18Feb2019/MIAWU_MAIN_V2_15MARCH19/simulation
+Z62 8F:/SYSTEMS AIDS_18Feb2019/MIAWU_MAIN_V2_15MARCH19/stimulus/fpm.vhd
+Z63 FF:/SYSTEMS AIDS_18Feb2019/MIAWU_MAIN_V2_15MARCH19/stimulus/fpm.vhd
+l0
+L32
+V4SS?3_J4h_G2>eDb21k:n0
+!s100 E[nlX4OJ5>fK<]>T3MM7B0
+R9
+33
+Z64 !s110 1552647403
+!i10b 1
+Z65 !s108 1552647403.000000
+Z66 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/MIAWU_MAIN_V2_15MARCH19/stimulus/fpm.vhd|
+Z67 !s107 F:/SYSTEMS AIDS_18Feb2019/MIAWU_MAIN_V2_15MARCH19/stimulus/fpm.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 3 fpm 0 22 4SS?3_J4h_G2>eDb21k:n0
+l59
+L35
+VE4Bd^T72FRlmMH<fkW]3A3
+!s100 J>d3EZ=VhlDh7SACK?_Sm1
+R9
+33
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R14
+R15
+Efpm_input
+Z68 w1553072704
+R3
+R2
+R4
+R5
+R6
+Z69 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/fault_prss_13march19.vhd
+Z70 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/fault_prss_13march19.vhd
+l0
+L7
+VkPOJTo6UCfMFgb_2iAHo:3
+!s100 ba=i^gQP<F5XlGhcLH>Ii3
+R9
+33
+R10
+!i10b 1
+R11
+Z71 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/fault_prss_13march19.vhd|
+Z72 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/fault_prss_13march19.vhd|
+!i113 1
+R14
+R15
+Aarc
+R3
+R2
+R4
+R5
+DEx4 work 9 fpm_input 0 22 kPOJTo6UCfMFgb_2iAHo:3
+l25
+L19
+V5^3D?ogB^:JI@>Jn`MoB?1
+!s100 Ckn8m@OiS`7jOOh47]`N00
+R9
+33
+R10
+!i10b 1
+R11
+R71
+R72
+!i113 1
+R14
+R15
+Emain
+Z73 w1553073977
+R4
+R5
+R6
+Z74 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/stimulus/main.vhd
+Z75 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/stimulus/main.vhd
+l0
+L32
+VCoKoNP8ERAj3MnFJaEcTj3
+!s100 ;;T9NGgcB:1T1Xf>HdM[I3
+R9
+33
+Z76 !s110 1553074661
+!i10b 1
+Z77 !s108 1553074661.000000
+Z78 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/stimulus/main.vhd|
+Z79 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/stimulus/main.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 4 main 0 22 CoKoNP8ERAj3MnFJaEcTj3
+l70
+L35
+V1gnGBMV^:Eh`G?1^JQd2=2
+!s100 LKA8Za8OVckW`E0WgmWe`0
+R9
+33
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 1
+R14
+R15
+Emain_file
+Z80 w1553074616
+R3
+R2
+R4
+R5
+R6
+Z81 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/main_PE_D_3_23Feb2019.vhd
+Z82 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/main_PE_D_3_23Feb2019.vhd
+l0
+L7
+VKGd`Azl^WMUlHRV<gJ=bC1
+!s100 zJKz9<<k=^hV2V;CE<fLU0
+R9
+33
+R39
+!i10b 1
+R40
+Z83 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/main_PE_D_3_23Feb2019.vhd|
+Z84 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/main_PE_D_3_23Feb2019.vhd|
+!i113 1
+R14
+R15
+Abehav
+R3
+R2
+R4
+R5
+DEx4 work 9 main_file 0 22 KGd`Azl^WMUlHRV<gJ=bC1
+l120
+L20
+VogA05N7Pz=bPhd1c2zaFE1
+!s100 jWKbUPkY3_cKEc5^6iB?>0
+R9
+33
+R39
+!i10b 1
+R40
+R83
+R84
+!i113 1
+R14
+R15
+Epriority_encoder_8_3
+Z85 w1551942738
+Z86 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R6
+Z87 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/PE_3_23Feb2019.vhd
+Z88 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/PE_3_23Feb2019.vhd
+l0
+L5
+VL2GZQM@@9EfW207z7BYm51
+!s100 0a@4UBlVQFfO_e[LYL3Hm0
+R9
+33
+R10
+!i10b 1
+R11
+Z89 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/PE_3_23Feb2019.vhd|
+Z90 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/PE_3_23Feb2019.vhd|
+!i113 1
+R14
+R15
+Apriority_enc_arc
+R86
+R4
+R5
+DEx4 work 20 priority_encoder_8_3 0 22 L2GZQM@@9EfW207z7BYm51
+l14
+L13
+VLoRR7?`cSoIn1XCAHbY9W3
+!s100 `jDGNUSYb@5YlCS>oEYOG0
+R9
+33
+R10
+!i10b 1
+R11
+R89
+R90
+!i113 1
+R14
+R15
+Espi
+Z91 w1553073383
+R3
+R2
+R4
+R5
+R6
+Z92 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/spi.vhd
+Z93 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/spi.vhd
+l0
+L29
+V@[SKE:jUhOazfh?Q3]zkP1
+!s100 0>@N83[cMhmOAza=X@gaT3
+R9
+33
+R39
+!i10b 1
+R40
+Z94 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/spi.vhd|
+Z95 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/spi.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 3 spi 0 22 @[SKE:jUhOazfh?Q3]zkP1
+l85
+L37
+V`m5>_V3ZNGl0LQR]@eglT2
+!s100 XF]T4QF1JXOARC9P5@2T43
+R9
+33
+R39
+!i10b 1
+R40
+R94
+R95
+!i113 1
+R14
+R15
+Estopcom
+Z96 w1551877897
+R3
+R2
+R4
+R5
+R6
+Z97 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/stopcom.vhd
+Z98 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/stopcom.vhd
+l0
+L30
+VR34d9dk?SCiGlUOI0MeG03
+!s100 <ZX;^fn62[lRDW[^Z^UN31
+R9
+33
+R10
+!i10b 1
+R11
+Z99 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/stopcom.vhd|
+Z100 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/stopcom.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 7 stopcom 0 22 R34d9dk?SCiGlUOI0MeG03
+l38
+L36
+VZ=5jhgDk_WQDSXC<h0TlK2
+!s100 FzZSF1WN<g[6ImRP5RM<n2
+R9
+33
+R10
+!i10b 1
+R11
+R99
+R100
+!i113 1
+R14
+R15
+Eswitchcheck1
+Z101 w1551939950
+R3
+R2
+R4
+R5
+R6
+Z102 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/switchcheck.vhd
+Z103 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/switchcheck.vhd
+l0
+L31
+Vkf^<V_]b6;ElnQCMhUVTR3
+!s100 PmHW57]]OaN8BXbhaSgDk1
+R9
+33
+R39
+!i10b 1
+R40
+Z104 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/switchcheck.vhd|
+Z105 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v8_20march19/hdl/switchcheck.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 12 switchcheck1 0 22 kf^<V_]b6;ElnQCMhUVTR3
+l94
+L46
+VZW3EBz<VE09gHeeJF<3zZ0
+!s100 80QBH^eEFciBo;X>YM6c:2
+R9
+33
+R39
+!i10b 1
+R40
+R104
+R105
+!i113 1
+R14
+R15
+Etb_fault_input
+R19
+R4
+R17
+R20
+R21
+R22
+l0
+L8
+V0e69BaWehGPIPgJ^fMZX^3
+!s100 :IjGK^4d^P;Wio`2=`7>j0
+R23
+33
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R14
+R15
+Atb
+R4
+R17
+R18
+l37
+L11
+Z106 VWKB60eLA6U6>3kXWBAX9P2
+Z107 !s100 e9ZZU@;[mH8cQU_G8f7nN3
+R23
+33
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R14
+R15
+Etest_fpm
+Z108 w1552658629
+R4
+R5
+R29
+Z109 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/test_fpm.vhd
+Z110 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/test_fpm.vhd
+l0
+L32
+VYmTSbgi<T5McH[3l^fC=:0
+!s100 EX9zDFzjXJSYS5VfjMkBE2
+R9
+33
+Z111 !s110 1552658645
+!i10b 1
+Z112 !s108 1552658645.000000
+Z113 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/test_fpm.vhd|
+Z114 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/test_fpm.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 8 test_fpm 0 22 YmTSbgi<T5McH[3l^fC=:0
+l59
+L35
+V8im3zZ7<PgaPLYoSR6;fd0
+!s100 XCB@ko[j_H1GnZNg>@FZ83
+R9
+33
+R111
+!i10b 1
+R112
+R113
+R114
+!i113 1
+R14
+R15
+Etest_fpm1
+Z115 w1552705439
+R4
+R5
+R29
+Z116 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TEST_FPM1.vhd
+Z117 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TEST_FPM1.vhd
+l0
+L32
+V8M>EIBS4gYKJP[V:2A7j^0
+!s100 WAfIH;^kldj1=?^7bMoGF2
+R9
+33
+Z118 !s110 1552705470
+!i10b 1
+Z119 !s108 1552705470.000000
+Z120 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TEST_FPM1.vhd|
+Z121 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TEST_FPM1.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 9 test_fpm1 0 22 8M>EIBS4gYKJP[V:2A7j^0
+l60
+L35
+VN<m03U^f@2bH[ldaVgU7d1
+!s100 :4Ogo237zbD52bh9:jcY10
+R9
+33
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R14
+R15
+Etop
+Z122 w1552656116
+R4
+R5
+R29
+Z123 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/TOP.vhd
+Z124 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/TOP.vhd
+l0
+L17
+V_lZKkA_:m5K5XLe]C6=PB3
+!s100 12XNAj@8kEgLSlcMJciBg0
+R9
+33
+Z125 !s110 1552706760
+!i10b 1
+Z126 !s108 1552706760.000000
+Z127 !s90 -2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/TOP.vhd|
+Z128 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/TOP.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 3 top 0 22 _lZKkA_:m5K5XLe]C6=PB3
+l119
+L42
+VTf:FlVPZFh_^4X1S@amOB0
+!s100 <BfdDaC>czP3?CC@h0=0m0
+R9
+33
+R125
+!i10b 1
+R126
+R127
+R128
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 3 top 0 22 IVl:WCiFnMzQdQ3J1YdGo3
+l59
+L26
+VPUVD^^JDL]Zo9GT<zDkB^3
+!s100 K>4_PjTkEQbWHkWiJ>X8M0
+R9
+33
+!s110 1552634976
+!i10b 1
+!s108 1552634976.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v1_15march19/stimulus/top.vhd|
+!s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v1_15march19/stimulus/top.vhd|
+!i113 1
+R14
+R15
+R0
+FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v1_15march19/stimulus/top.vhd
+w1552634293
+8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v1_15march19/stimulus/top.vhd
+Etop1
+Z129 w1552706712
+R4
+R5
+R29
+Z130 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TOP1.vhd
+Z131 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TOP1.vhd
+l0
+L23
+VJczf9S[4bl99Wa23zD4B:2
+!s100 6DNObME;fTHT2AQ7]a5]X3
+R9
+33
+Z132 !s110 1552706761
+!i10b 1
+Z133 !s108 1552706761.000000
+Z134 !s90 -2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TOP1.vhd|
+Z135 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/stimulus/TOP1.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+DEx4 work 4 top1 0 22 Jczf9S[4bl99Wa23zD4B:2
+l60
+L26
+V3;`g1C;WzcGLRab`ZR>2N1
+!s100 SblSlLg2mVb8VA@?SD:]T2
+R9
+33
+R132
+!i10b 1
+R133
+R134
+R135
+!i113 1
+R14
+R15
+Etop_osc_0_osc
+R122
+R4
+R5
+R29
+Z136 8F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/OSC_0/TOP_OSC_0_OSC.vhd
+Z137 FF:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/OSC_0/TOP_OSC_0_OSC.vhd
+l0
+L8
+VmU07GB_fYAO47kYeC8G]n3
+!s100 ]ol4UV5k>dGfcR@^^f>hj1
+R9
+33
+Z138 !s110 1552706757
+!i10b 1
+R33
+Z139 !s90 -2008|-explicit|-work|presynth|F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/OSC_0/TOP_OSC_0_OSC.vhd|
+Z140 !s107 F:/SYSTEMS AIDS_18Feb2019/miawu_main_v3_15march19/component/work/TOP/OSC_0/TOP_OSC_0_OSC.vhd|
+!i113 1
+R14
+R15
+Adef_arch
+R4
+R5
+DEx4 work 13 top_osc_0_osc 0 22 mU07GB_fYAO47kYeC8G]n3
+l46
+L21
+VT;k7b;OVg]3<8jV7QPcHH3
+!s100 0]Ue]kGj>FGc5@XCfAhiB1
+R9
+33
+R138
+!i10b 1
+R33
+R139
+R140
+!i113 1
+R14
+R15

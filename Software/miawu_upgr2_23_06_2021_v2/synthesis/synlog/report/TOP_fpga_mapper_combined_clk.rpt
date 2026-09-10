@@ -1,0 +1,40 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 46 clock pin(s) of sequential element(s)
+14 gated/generated clock tree(s) driving 337 clock pin(s) of sequential element(s)
+0 instances converted, 337 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance               
+------------------------------------------------------------------------------------------------------
+@K:CKID0015       OSC_0.I_XTLOSC      XTLOSC                 43         clkdiv_0.a2                   
+@K:CKID0016       RDY                 port                   3          main_file_0.spi1.spi0.rdint_en
+======================================================================================================
+==================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element                                            Drive Element Type     Fanout     Sample Instance                           Explanation                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       main_file_0.fclock                                         CFG2                   27         main_file_0.p10.counterValue[6]           Clock conversion disabled                                               
+@K:CKID0002       clkdiv_0.a1                                                SLE                    171        main_file_0.p1.rest_enable_sig            No generated or derived clock directive on output of sequential instance
+@K:CKID0003       clkdiv_0.a2                                                SLE                    107        main_file_0.counterQ[9]                   No generated or derived clock directive on output of sequential instance
+@K:CKID0004       main_file_0.spi1.spl                                       SLE                    1          main_file_0.spi1.spi0.A4.Q                No generated or derived clock directive on output of sequential instance
+@K:CKID0005       main_file_0.spi1.path                                      SLE                    1          main_file_0.spi1.spi0.A4_5.Q              No generated or derived clock directive on output of sequential instance
+@K:CKID0006       main_file_0.spi1.rd_int                                    SLE                    1          main_file_0.spi1.spi0.A10_5.Q             No generated or derived clock directive on output of sequential instance
+@K:CKID0007       main_file_0.spi1.spi0.ins_RNO                              CFG4                   1          main_file_0.spi1.spi0.ins                 Clock conversion disabled                                               
+@K:CKID0008       main_file_0.module_j_inst.dout_2[3]                        CFG3                   15         main_file_0.module_k_inst.y_1[16]         No clocks found on inputs                                               
+@K:CKID0009       main_file_0.module_j_inst.pri_enc\.un91_din_9_RNIS6KG1     CFG4                   8          main_file_0.module_k_inst.y_1[10]         No clocks found on inputs                                               
+@K:CKID0010       main_file_0.spi1.spi0.m113_i                               CFG2                   1          main_file_0.spi1.spi0.A2.Q                No clocks found on inputs                                               
+@K:CKID0011       main_file_0.spi1.spi0.un1_cs_pu_2_0_a2_0_a3                CFG3                   1          main_file_0.spi1.spi0.q1res_nlat          Clock conversion disabled                                               
+@K:CKID0012       main_file_0.spi1.spi0.un1_cs_ply_2_0_a2_0_a3               CFG4                   1          main_file_0.spi1.spi0.pq1res_nlat         Clock conversion disabled                                               
+@K:CKID0013       main_file_0.spi1.spi0.un1_cs_path_2_0_a2_0_a3              CFG4                   1          main_file_0.spi1.spi0.qpath_res_nlat      Clock conversion disabled                                               
+@K:CKID0014       main_file_0.spi1.spi0.un1_cs_rdint_2_0_a2_0_a3             CFG3                   1          main_file_0.spi1.spi0.qrdint_res_nlat     Clock conversion disabled                                               
+=================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,200 @@
+@N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd":17:7:17:9|Synthesizing work.top.rtl.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":8:7:8:19|Synthesizing work.top_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+Post processing for work.xtlosc.def_arch
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":95:7:95:16|Synthesizing work.xtlosc_fab.def_arch.
+Post processing for work.xtlosc_fab.def_arch
+Post processing for work.top_osc_0_osc.def_arch
+Running optimization stage 1 on TOP_OSC_0_OSC .......
+@W: CL240 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":12:10:12:27|Signal RCOSC_25_50MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on TOP_OSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":7:7:7:15|Synthesizing work.main_file.behav.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":177:24:177:31|Removing redundant assignment.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":146:27:146:30|Signal sig5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":150:7:150:10|Signal f2_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":150:24:150:27|Signal f3_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":150:41:150:44|Signal f4_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":150:58:150:61|Signal f5_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":151:7:151:10|Signal f6_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:7:156:13|Signal and1out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:16:156:22|Signal and2out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:25:156:31|Signal and3out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:34:156:40|Signal and4out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:43:156:49|Signal and5out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:52:156:58|Signal and6out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:61:156:67|Signal and7out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":156:70:156:76|Signal and8out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:7:157:12|Signal and1in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:14:157:19|Signal and2in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:21:157:26|Signal and3in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:28:157:33|Signal and4in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:35:157:40|Signal and5in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:42:157:47|Signal and6in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:49:157:54|Signal and7in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":157:56:157:61|Signal and8in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":158:7:158:10|Signal fpm2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":159:7:159:7|Signal f is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd":6:7:6:16|Synthesizing work.decoder3x8.behavioral.
+Post processing for work.decoder3x8.behavioral
+Running optimization stage 1 on decoder3x8 .......
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd":16:0:16:3|Latch generated from process for signal y(23 downto 0); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on decoder3x8 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd":5:7:5:26|Synthesizing work.priority_encoder_8_3.priority_enc_arc.
+Post processing for work.priority_encoder_8_3.priority_enc_arc
+Running optimization stage 1 on priority_encoder_8_3 .......
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd":20:8:20:9|Latch generated from process for signal dout(4 downto 0); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on priority_encoder_8_3 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":29:7:29:9|Synthesizing work.spi.behavioral.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":74:19:74:21|Signal in9 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":74:28:74:31|Signal in11 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":74:33:74:36|Signal in13 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":31:7:31:18|Synthesizing work.switchcheck1.behavioral.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":414:22:414:27|Removing redundant assignment.
+@W: CD434 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":393:21:393:25|Signal shreg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":393:0:393:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":671:37:671:43|Referenced variable ensclk1 is not in sensitivity list.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd":24:7:24:10|Synthesizing work.d_ff.behavioral.
+Post processing for work.d_ff.behavioral
+Running optimization stage 1 on D_FF .......
+Finished optimization stage 1 on D_FF (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Post processing for work.switchcheck1.behavioral
+Running optimization stage 1 on switchcheck1 .......
+@W: CL113 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":281:4:281:5|Feedback mux created for signal q_rdint[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":281:4:281:5|Latch generated from process for signal rdint_en; possible missing assignment in an if or case statement.
+@W: CL113 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":238:4:238:5|Feedback mux created for signal q_path[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":238:4:238:5|Latch generated from process for signal path_en; possible missing assignment in an if or case statement.
+@W: CL113 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":194:4:194:5|Feedback mux created for signal pq1[5:1]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":194:4:194:5|Latch generated from process for signal pq1clk; possible missing assignment in an if or case statement.
+@W: CL113 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":156:4:156:5|Feedback mux created for signal q1[5:1]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":281:4:281:5|Latch generated from process for signal qrdint_res; possible missing assignment in an if or case statement.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":238:4:238:5|Latch generated from process for signal qpath_res; possible missing assignment in an if or case statement.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":194:4:194:5|Latch generated from process for signal pq1res; possible missing assignment in an if or case statement.
+@W: CL117 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":156:4:156:5|Latch generated from process for signal q1res; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on switchcheck1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\stopcom.vhd":30:7:30:13|Synthesizing work.stopcom.behavioral.
+Post processing for work.stopcom.behavioral
+Running optimization stage 1 on stopcom .......
+Finished optimization stage 1 on stopcom (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\andgate_1.vhd":6:7:6:15|Synthesizing work.andgate_1.behavioral.
+Post processing for work.andgate_1.behavioral
+Running optimization stage 1 on ANDgate_1 .......
+Finished optimization stage 1 on ANDgate_1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Post processing for work.spi.behavioral
+Running optimization stage 1 on spi .......
+Finished optimization stage 1 on spi (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":8:7:8:17|Synthesizing work.fault_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":57:20:57:31|Removing redundant assignment.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":24:11:24:20|Signal stop_count is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":25:11:25:15|Signal temp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":27:32:27:41|Signal reset_flag is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":28:11:28:23|Signal countervalue1 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fault_input.arc
+Running optimization stage 1 on fault_input .......
+Finished optimization stage 1 on fault_input (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":8:7:8:14|Synthesizing work.f9_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":57:20:57:31|Removing redundant assignment.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":24:11:24:20|Signal stop_count is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":25:11:25:15|Signal temp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":27:32:27:41|Signal reset_flag is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":28:11:28:23|Signal countervalue1 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.f9_input.arc
+Running optimization stage 1 on f9_input .......
+Finished optimization stage 1 on f9_input (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":8:7:8:14|Synthesizing work.f3_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":57:20:57:31|Removing redundant assignment.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":24:11:24:20|Signal stop_count is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":25:11:25:15|Signal temp2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":27:32:27:41|Signal reset_flag is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":28:11:28:23|Signal countervalue1 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.f3_input.arc
+Running optimization stage 1 on f3_input .......
+Finished optimization stage 1 on f3_input (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f1_input.vhd":7:7:7:14|Synthesizing work.f1_input.arc.
+Post processing for work.f1_input.arc
+Running optimization stage 1 on f1_input .......
+Finished optimization stage 1 on f1_input (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":7:7:7:15|Synthesizing work.fpm_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":54:24:54:35|Removing redundant assignment.
+@W: CD638 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":22:11:22:15|Signal temp2 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fpm_input.arc
+Running optimization stage 1 on fpm_input .......
+Finished optimization stage 1 on fpm_input (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.main_file.behav
+Running optimization stage 1 on main_file .......
+Finished optimization stage 1 on main_file (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\clv_div.vhd":25:7:25:12|Synthesizing work.clkdiv.c1.
+Post processing for work.clkdiv.c1
+Running optimization stage 1 on clkdiv .......
+Finished optimization stage 1 on clkdiv (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.top.rtl
+Running optimization stage 1 on TOP .......
+Finished optimization stage 1 on TOP (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 2 on clkdiv .......
+Finished optimization stage 2 on clkdiv (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on fpm_input .......
+Finished optimization stage 2 on fpm_input (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on f1_input .......
+Finished optimization stage 2 on f1_input (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on f3_input .......
+Finished optimization stage 2 on f3_input (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on f9_input .......
+Finished optimization stage 2 on f9_input (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on fault_input .......
+Finished optimization stage 2 on fault_input (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on ANDgate_1 .......
+Finished optimization stage 2 on ANDgate_1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on stopcom .......
+Finished optimization stage 2 on stopcom (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on D_FF .......
+Finished optimization stage 2 on D_FF (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on switchcheck1 .......
+@N: CL159 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":32:10:32:14|Input reset is unused.
+Finished optimization stage 2 on switchcheck1 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on spi .......
+Finished optimization stage 2 on spi (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on priority_encoder_8_3 .......
+Finished optimization stage 2 on priority_encoder_8_3 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on decoder3x8 .......
+Finished optimization stage 2 on decoder3x8 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on main_file .......
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(31) is always 0.
+@W: CL260 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Pruning register bit 31 of counterQ(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(30) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(29) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(28) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(27) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(26) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(25) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(24) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(23) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(22) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(21) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(20) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(19) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(18) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(17) is always 0.
+@W: CL279 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Pruning register bits 30 to 17 of counterQ(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(16) is always 1.
+@W: CL260 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Pruning register bit 16 of counterQ(16 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(15) is always 1.
+@W: CL279 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Pruning register bits 15 to 11 of counterQ(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(10) is always 1.
+@W: CL260 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Pruning register bit 10 of counterQ(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on main_file (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on TOP_OSC_0_OSC .......
+Finished optimization stage 2 on TOP_OSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on TOP .......
+Finished optimization stage 2 on TOP (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synwork\layer0.duruntime
+
+

@@ -1,0 +1,157 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Sep 10 15:18:46 2026 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: TOP
+-Family: IGLOO2
+-Die: M2GL005
+-Package: 144 TQ
+-----------------------------------------------------------------
+
+Number |Port   |Function                 |State      |I/O Std  |Direction |I/O state in Flash*Freeze mode |Resistor Pull |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static |Odt Imp (Ohm) |Low Power Exit |Input Delay |Slew |Pre-Emphasis |Output Drive (mA) |Output Load (pF) |
+-------|-------|-------------------------|-----------|---------|----------|-------------------------------|--------------|-----------------------------------|----------------|-----------|--------------|---------------|------------|-----|-------------|------------------|-----------------|
+1       f8      MSIO52NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+2               MSIO52PB6                 Unassigned  
+3       f7      MSIO53PB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+4               MSIO53NB6                 Unassigned  
+5               VSS                       Reserved    
+6               VDDI6                     Reserved    
+7       f6      MSIO56NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+8               MSIO56PB6                 Unassigned  
+9       f5      MSIO58NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+10              MSIO58PB6                 Unassigned  
+11              VSS                       Reserved    
+12              VDD                       Reserved    
+13      f4      MSIO62NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+14              MSIO62PB6                 Unassigned  
+15      f3      MSIO63NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+16              MSIO63PB6/GB2             Special     
+17              VDDI6                     Reserved    
+18              VSS                       Reserved    
+19      f2      MSIO64NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+20              MSIO64PB6/GB1             Special     
+21      f1      MSIO66NB6                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+22              MSIO66PB6                 Unassigned  
+23              MSIOD69PB5/CCC_NE1_CLKI2  Special     
+24              MSIOD70PB5/CCC_NE1_CLKI1  Special     
+25              VDDI5                     Reserved    
+26              VSS                       Reserved    
+27              VDD                       Reserved    
+28      f17     MSIOD74NB5                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+29              MSIOD74PB5                Unassigned  
+30      f18     MSIOD75NB5                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+31              MSIOD75PB5                Unassigned  
+32              VDDI5                     Reserved    
+33              VSS                       Reserved    
+34      f19     MSIOD79PB5                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+35              MSIOD80NB5                Unassigned  
+36      f20     MSIOD80PB5                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+37              VPP                       Reserved    
+38      f21     MSIO81PB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+39              MSIO81NB4/CCC_NE1_CLKI0   Special     
+40      cwp     MSIO82NB4/PROBE_B         Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+41              MSIO82PB4/PROBE_A         Unassigned  
+42      ack     MSIO83NB4/GB7             Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+43              MSIO83PB4/GB3             Special     
+44              VSS                       Reserved    
+45              VDDI4                     Reserved    
+46              MSIO84PB4/CCC_NE0_CLKI0   Special     
+47      f22     MSIO84NB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+48              VDD                       Reserved    
+49              VSS                       Reserved    
+50      f9      MSIO92PB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+51              MSIO92NB4                 Unassigned  
+52      f10     MSIO93PB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+53      f11     MSIO93NB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+54              VSS                       Reserved    
+55              VDDI4                     Reserved    
+56              MSIO96PB4                 Unassigned  
+57      f12     MSIO96NB4                 Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+58              VSS                       Reserved    
+59              VDD                       Reserved    
+60      f13     MSIO100PB4                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+61      f14     MSIO100NB4                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+62              MSIO101PB4                Unassigned  
+63      RDY     MSIO101NB4                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+64              VSS                       Reserved    
+65              VDDI4                     Reserved    
+66              MSIO105PB4                Unassigned  
+67      f15     MSIO105NB4                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+68              VPP                       Reserved    
+69              VPP                       Reserved    
+70      XTL     XTLOSC_MAIN_XTAL          Dedicated   
+71              XTLOSC_MAIN_EXTAL         Reserved    
+72              DEVRST_N                  Reserved    
+73              JTAGSEL                   Reserved    
+74              JTAG_TDO                  Reserved    
+75              JTAG_TCK                  Reserved    
+76              JTAG_TRSTB                Reserved    
+77              VDDI3                     Reserved    
+78              JTAG_TMS                  Reserved    
+79              JTAG_TDI                  Reserved    
+80              VPP                       Reserved    
+81              MSIO0NB2                  Unassigned  
+82      f16     MSIO1PB2                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+83              VSS                       Reserved    
+84              VDDI2                     Reserved    
+85      fpm     MSIO1NB2                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+86      F25     MSIO2PB2                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+87              MSIO2NB2                  Unassigned  
+88              MSIO3PB2                  Unassigned  
+89              MSIO3NB2                  Unassigned  
+90              MSIO4PB2                  Unassigned  
+91              MSIO4NB2                  Unassigned  
+92      AGlamp  MSIO5PB2                  Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+93              MSIO6PB2                  Unassigned  
+94      INT     MSIO5NB2                  Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+95              VDD                       Reserved    
+96              VDDI2                     Reserved    
+97              VSS                       Reserved    
+98      sclk    MSIO12PB2/SPI_0_CLK       Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+99              MSIO12NB2/SPI_0_SDI       Unassigned  
+100     sdata   MSIO13PB2/SPI_0_SDO       Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+101     cs      MSIO13NB2/SPI_0_SS0       Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+102             VSSNVM                    Reserved    
+103             VPPNVM                    Reserved    
+104             VPP                       Reserved    
+105             VDD                       Reserved    
+106             CCC_NE1_PLL_VSSA          Reserved    
+107             CCC_NE1_PLL_VDDA          Reserved    
+108             CCC_NE0_PLL_VSSA          Reserved    
+109             CCC_NE0_PLL_VDDA          Reserved    
+110             DDRIO20PB0                Unassigned  
+111             DDRIO22NB0                Unassigned  
+112             DDRIO22PB0                Unassigned  
+113             VSS                       Reserved    
+114             VDDI0                     Reserved    
+115             DDRIO25NB0                Unassigned  
+116             DDRIO25PB0                Unassigned  
+117             DDRIO27NB0                Unassigned  
+118             DDRIO27PB0                Unassigned  
+119             VSS                       Reserved    
+120             VREF0                     Reserved    
+121             VDD                       Reserved    
+122             DDRIO33NB0                Unassigned  
+123             DDRIO33PB0                Unassigned  
+124             DDRIO34NB0                Unassigned  
+125             DDRIO34PB0                Unassigned  
+126             VSS                       Reserved    
+127             VDDI0                     Reserved    
+128             DDRIO37NB0                Unassigned  
+129             DDRIO37PB0                Unassigned  
+130             DDRIO38NB0                Unassigned  
+131             DDRIO38PB0                Unassigned  
+132             VSS                       Reserved    
+133             VDD                       Reserved    
+134             DDRIO43NB0                Unassigned  
+135             DDRIO43PB0                Unassigned  
+136             DDRIO45NB0                Unassigned  
+137             DDRIO45PB0/CCC_NE0_CLKI3  Special     
+138             VSS                       Reserved    
+139             VDDI0                     Reserved    
+140             DDRIO49NB0/GB4            Special     
+141             DNC                       Reserved    
+142             DDRIO49PB0/GB0            Special     
+143             DDRIO50NB0/CCC_NE1_CLKI3  Special     
+144             DDRIO51PB0                Unassigned  

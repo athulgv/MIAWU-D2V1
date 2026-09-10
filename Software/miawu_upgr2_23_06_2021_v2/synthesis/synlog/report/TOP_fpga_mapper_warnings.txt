@@ -1,0 +1,40 @@
+@W: MT453 :|clock period is too long for clock XTL, changing period from 31250.0 to 15625.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 15625.0 ns to 7812.5 ns. 
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2_RNIKJGM7 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.pui.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2_RNIKJGM7 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.sdi.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.spl.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.rd_int.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.sdi_fast from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.sdi_fast.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.sdi_fast from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.sdi_rep1.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.sdi_fast from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.sdi_rep2.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.pu_cnt.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.path.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[1] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[1].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[1] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[2].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[1] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[3].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[4].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[5].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[6] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[6].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[6] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[7].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.q[6] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[8].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.q[9].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.pui_fast.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.pui_rep1 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.pui_rep1.ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.pui_rep1 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[0].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.pui_rep1 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[1].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[2].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.un13_input2 from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[3].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.qintcount[4] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[4].ALn. Reason: The path has negative slack.
+@W: FX202 :|Removing CLKINT main_file_0.spi1.qintcount[4] from net main_file_0.spi1.un13_input2 which has asynchronous connection main_file_0.spi1.qintcount[5].ALn. Reason: The path has negative slack.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT246 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\component\work\top\osc_0\top_osc_0_osc.vhd":52:4:52:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock clkdiv|a2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clkdiv_0.a2.
+@W: MT420 |Found inferred clock TOP|RDY with period 10.00ns. Please declare a user-defined clock on port RDY.
+@W: MT420 |Found inferred clock clkdiv|a1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clkdiv_0.a1.
+@W: MT420 |Found inferred clock TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net OSC_0.N_XTLOSC_CLKOUT.
+@W: MT420 |Found inferred clock priority_encoder_8_3|dout_inferred_clock[3] with period 10.00ns. Please declare a user-defined clock on net main_file_0.module_j_inst.dout[3].
+@W: MT420 |Found inferred clock priority_encoder_8_3|pri_enc_un91_din_inferred_clock with period 10.00ns. Please declare a user-defined clock on net main_file_0.module_j_inst.un91_din.

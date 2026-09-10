@@ -1,0 +1,5 @@
+
+#1001 : create_clock -name XTL -period 31250 -waveform {0 15625} [get_ports { XTL }]
+# line 7 in e:/miawu/03-08-2021/darin 2 v1 fpga souce/software/miawu_upgr2_23_06_2021_v2/designer/top/synthesis.fdc
+
+create_clock -name {XTL} -period {31250.000} -waveform {0.000 15625.000} [get_ports {XTL}]

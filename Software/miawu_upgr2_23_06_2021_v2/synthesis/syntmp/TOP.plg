@@ -1,0 +1,41 @@
+@P:  Worst Slack : 0.513
+@P:  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock - Estimated Frequency : 275.4 MHz
+@P:  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock - Estimated Period : 3.631
+@P:  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock - Requested Period : 10.000
+@P:  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock - Slack : 6.369
+@P:  TOP|RDY - Estimated Frequency : NA
+@P:  TOP|RDY - Requested Frequency : 100.0 MHz
+@P:  TOP|RDY - Estimated Period : NA
+@P:  TOP|RDY - Requested Period : 10.000
+@P:  TOP|RDY - Slack : NA
+@P:  XTL - Estimated Frequency : NA
+@P:  XTL - Requested Frequency : 0.1 MHz
+@P:  XTL - Estimated Period : NA
+@P:  XTL - Requested Period : 15625.000
+@P:  XTL - Slack : NA
+@P:  clkdiv|a1_inferred_clock - Estimated Frequency : 185.5 MHz
+@P:  clkdiv|a1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clkdiv|a1_inferred_clock - Estimated Period : 5.390
+@P:  clkdiv|a1_inferred_clock - Requested Period : 10.000
+@P:  clkdiv|a1_inferred_clock - Slack : 4.610
+@P:  clkdiv|a2_inferred_clock - Estimated Frequency : 111.4 MHz
+@P:  clkdiv|a2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clkdiv|a2_inferred_clock - Estimated Period : 8.975
+@P:  clkdiv|a2_inferred_clock - Requested Period : 10.000
+@P:  clkdiv|a2_inferred_clock - Slack : 0.513
+@P:  priority_encoder_8_3|dout_inferred_clock[3] - Estimated Frequency : NA
+@P:  priority_encoder_8_3|dout_inferred_clock[3] - Requested Frequency : 100.0 MHz
+@P:  priority_encoder_8_3|dout_inferred_clock[3] - Estimated Period : NA
+@P:  priority_encoder_8_3|dout_inferred_clock[3] - Requested Period : 10.000
+@P:  priority_encoder_8_3|dout_inferred_clock[3] - Slack : NA
+@P:  priority_encoder_8_3|pri_enc_un91_din_inferred_clock - Estimated Frequency : NA
+@P:  priority_encoder_8_3|pri_enc_un91_din_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  priority_encoder_8_3|pri_enc_un91_din_inferred_clock - Estimated Period : NA
+@P:  priority_encoder_8_3|pri_enc_un91_din_inferred_clock - Requested Period : 10.000
+@P:  priority_encoder_8_3|pri_enc_un91_din_inferred_clock - Slack : NA
+@P: TOP Part : m2gl005vf400std
+@P: TOP Register bits  : 385 
+@P: TOP DSP Blocks  : 0
+@P: TOP I/O primitives : 32
+@P:  CPU Time : 0h:00m:08s

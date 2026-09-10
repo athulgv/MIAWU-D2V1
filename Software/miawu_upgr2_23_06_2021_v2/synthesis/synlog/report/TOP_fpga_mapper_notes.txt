@@ -1,0 +1,36 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BZ173 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\d_3_23feb2019.vhd":16:0:16:3|ROM y_2[23:0] (in view: work.decoder3x8(behavioral)) mapped in logic.
+@N: BZ173 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\d_3_23feb2019.vhd":16:0:16:3|ROM y_2[23:0] (in view: work.decoder3x8(behavioral)) mapped in logic.
+@N: MO106 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\d_3_23feb2019.vhd":16:0:16:3|Found ROM y_2[23:0] (in view: work.decoder3x8(behavioral)) with 24 words by 24 bits.
+@N: BZ173 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":68:74:68:76|ROM ip3[9:0] (in view: work.spi(behavioral)) mapped in logic.
+@N: MO106 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":68:74:68:76|Found ROM ip3[9:0] (in view: work.spi(behavioral)) with 10 words by 10 bits.
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\main_pe_d_3_23feb2019.vhd":170:12:170:13|Found counter in view:work.main_file(behav) instance counterQ[9:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":39:6:39:7|Found counter in view:work.fault_input(arc) instance counterValue[6:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":39:6:39:7|Found counter in view:work.f3_input(arc) instance counterValue[6:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":39:6:39:7|Found counter in view:work.f9_input(arc) instance counterValue[6:0] 
+@N: BN362 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\d_3_23feb2019.vhd":16:0:16:3|Removing sequential instance y_1[0] (in view: work.decoder3x8(behavioral)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":340:2:340:3|Found counter in view:work.spi(behavioral) instance qintcount[5:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":281:4:281:5|Found counter in view:work.switchcheck1(behavioral) instance q_rdint[4:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":238:4:238:5|Found counter in view:work.switchcheck1(behavioral) instance q_path[4:0] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":194:4:194:5|Found counter in view:work.switchcheck1(behavioral) instance pq1[5:1] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":156:4:156:5|Found counter in view:work.switchcheck1(behavioral) instance q1[5:1] 
+@N: MO231 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":35:8:35:9|Found counter in view:work.fpm_input(arc) instance counterValue[4:0] 
+@N: FX271 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":340:2:340:3|Replicating instance main_file_0.spi1.pui (in view: work.TOP(rtl)) with 22 loads 2 times to improve timing.
+@N: FX271 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":340:2:340:3|Replicating instance main_file_0.spi1.sdi (in view: work.TOP(rtl)) with 33 loads 3 times to improve timing.
+@N: FX271 :"e:\miawu\03-08-2021\darin 2 v1 fpga souce\software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":663:4:663:5|Replicating instance main_file_0.spi1.spi0.shreg1_55_m11s2_0_0 (in view: work.TOP(rtl)) with 45 loads 3 times to improve timing.
+@N: FP130 |Promoting Net main_file_0.reset_arst on CLKINT  I_448 
+@N: FP130 |Promoting Net clkdiv_0_clkout1 on CLKINT  I_449 
+@N: FP130 |Promoting Net clkdiv_0_clkout2 on CLKINT  I_450 
+@N: FP130 |Promoting Net main_file_0.spi1.un13_input2_i on CLKINT  I_451 
+@N: FP130 |Promoting Net main_file_0.fclock on CLKINT  I_452 
+@N: FP130 |Promoting Net main_file_0.sig3 on CLKINT  I_453 
+@N: FP130 |Promoting Net main_file_0.module_j_inst.pri_enc\.un91_din_data on CLKINT  I_454 
+@N: FP130 |Promoting Net RDY_c on CLKINT  I_455 
+@N: FX1056 |Writing EDF file: E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\TOP.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock XTL with period 15625.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

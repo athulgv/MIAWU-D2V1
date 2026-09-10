@@ -1,0 +1,706 @@
+KEY LIBERO "2024.1"
+KEY CAPTURE "2024.1.0.3"
+KEY DEFAULT_IMPORT_LOC "D:\Karpaham_New\FPGA_AAU\micro9.1\Demux\stimulus"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "IGLOO2"
+KEY VendorTechnology_Die "PA4MGL500"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "0"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4MGL500"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "TOP::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624257754"
+SIZE="241"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624258345"
+SIZE="682"
+PARENT="<project>\component\work\TOP\TOP.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1542950463"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1542950463"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624257755"
+SIZE="10372"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.vhd,hdl"
+STATE="utd"
+TIME="1624257755"
+SIZE="3585"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624257754"
+SIZE="705"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1624257754"
+SIZE="6067"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TOP\OSC_0\TOP_OSC_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624258345"
+SIZE="448"
+PARENT="<project>\component\work\TOP\TOP.cxf"
+ENDFILE
+VALUE "<project>\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1624258345"
+SIZE="1490"
+PARENT="<project>\component\work\TOP\OSC_0\TOP_OSC_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TOP\TOP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1624258346"
+SIZE="6786"
+ENDFILE
+VALUE "<project>\component\work\TOP\TOP.vhd,hdl"
+STATE="utd"
+TIME="1624258345"
+SIZE="9813"
+PARENT="<project>\component\work\TOP\TOP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\clk.sdc,sdc"
+STATE="utd"
+TIME="1608187216"
+SIZE="0"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1553167832"
+SIZE="3918"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\constraint\user.sdc,sdc"
+STATE="utd"
+TIME="1624359429"
+SIZE="458"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\hdl\andgate_1.vhd,hdl"
+STATE="utd"
+TIME="1552048523"
+SIZE="285"
+ENDFILE
+VALUE "<project>\hdl\and_3_23Feb2019.vhd,hdl"
+STATE="utd"
+TIME="1551089166"
+SIZE="947"
+ENDFILE
+VALUE "<project>\hdl\clv_div.vhd,hdl"
+STATE="utd"
+TIME="1688661486"
+SIZE="2176"
+ENDFILE
+VALUE "<project>\hdl\D_3_23Feb2019.vhd,hdl"
+STATE="utd"
+TIME="1553146780"
+SIZE="1586"
+ENDFILE
+VALUE "<project>\hdl\D_FF.vhd,hdl"
+STATE="utd"
+TIME="1624363881"
+SIZE="6477"
+ENDFILE
+VALUE "<project>\hdl\edge_d_28.vhd,hdl"
+STATE="utd"
+TIME="1551419459"
+SIZE="806"
+ENDFILE
+VALUE "<project>\hdl\f1_input.vhd,hdl"
+STATE="utd"
+TIME="1624274081"
+SIZE="1096"
+ENDFILE
+VALUE "<project>\hdl\f3_f4_input.vhd,hdl"
+STATE="utd"
+TIME="1624358651"
+SIZE="2266"
+ENDFILE
+VALUE "<project>\hdl\f4_input.vhd,hdl"
+STATE="utd"
+TIME="1608186771"
+SIZE="2992"
+ENDFILE
+VALUE "<project>\hdl\f9_input.vhd,hdl"
+STATE="utd"
+TIME="1624358895"
+SIZE="2266"
+ENDFILE
+VALUE "<project>\hdl\fault_prss_13march19.vhd,hdl"
+STATE="utd"
+TIME="1624429793"
+SIZE="2569"
+ENDFILE
+VALUE "<project>\hdl\Fpm_FL.vhd,hdl"
+STATE="utd"
+TIME="1551270310"
+SIZE="534"
+ENDFILE
+VALUE "<project>\hdl\input_faults.vhd,hdl"
+STATE="utd"
+TIME="1624358284"
+SIZE="2275"
+ENDFILE
+VALUE "<project>\hdl\main_PE_D_3_23Feb2019.vhd,hdl"
+STATE="utd"
+TIME="1624430143"
+SIZE="10813"
+ENDFILE
+VALUE "<project>\hdl\PE_3_23Feb2019.vhd,hdl"
+STATE="utd"
+TIME="1624008844"
+SIZE="2088"
+ENDFILE
+VALUE "<project>\hdl\spi.vhd,hdl"
+STATE="utd"
+TIME="1624425809"
+SIZE="9983"
+ENDFILE
+VALUE "<project>\hdl\SR_FF27.vhd,hdl"
+STATE="utd"
+TIME="1551422403"
+SIZE="1106"
+ENDFILE
+VALUE "<project>\hdl\stopcom.vhd,hdl"
+STATE="utd"
+TIME="1624364204"
+SIZE="1362"
+ENDFILE
+VALUE "<project>\hdl\switchcheck.vhd,hdl"
+STATE="utd"
+TIME="1624426092"
+SIZE="24679"
+ENDFILE
+VALUE "<project>\hdl\tb_fault_in.vhd,hdl"
+STATE="utd"
+TIME="1624277657"
+SIZE="0"
+ENDFILE
+VALUE "<project>\simulation\cfg_tb_fault_input_presynth_simulation.log,log"
+STATE="utd"
+TIME="1624278471"
+SIZE="12882"
+ENDFILE
+VALUE "<project>\simulation\fpm_presynth_simulation.log,log"
+STATE="utd"
+TIME="1552647453"
+SIZE="4267"
+ENDFILE
+VALUE "<project>\simulation\main_presynth_simulation.log,log"
+STATE="utd"
+TIME="1553074770"
+SIZE="15866"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1624278351"
+SIZE="781"
+ENDFILE
+VALUE "<project>\simulation\TEST_FPM1_presynth_simulation.log,log"
+STATE="utd"
+TIME="1552705622"
+SIZE="6755"
+ENDFILE
+VALUE "<project>\simulation\test_fpm_presynth_simulation.log,log"
+STATE="utd"
+TIME="1552658645"
+SIZE="4609"
+ENDFILE
+VALUE "<project>\simulation\test_presynth_simulation.log,log"
+STATE="utd"
+TIME="1552705389"
+SIZE="3972"
+ENDFILE
+VALUE "<project>\stimulus\fpm.vhd,tb_hdl"
+STATE="utd"
+TIME="1552647391"
+SIZE="2397"
+ENDFILE
+VALUE "<project>\stimulus\main.vhd,tb_hdl"
+STATE="utd"
+TIME="1553073977"
+SIZE="2993"
+ENDFILE
+VALUE "<project>\stimulus\tb_faul.vhd,tb_hdl"
+STATE="utd"
+TIME="1624277928"
+SIZE="2566"
+ENDFILE
+VALUE "<project>\stimulus\test_fpm.vhd,tb_hdl"
+STATE="utd"
+TIME="1552658629"
+SIZE="2417"
+ENDFILE
+VALUE "<project>\stimulus\topmain.vhd,tb_hdl"
+STATE="utd"
+TIME="1552707323"
+SIZE="2434"
+ENDFILE
+VALUE "<project>\synthesis\ANDgate_1.edn,syn_edn"
+STATE="ood"
+TIME="1552633812"
+SIZE="3600"
+ENDFILE
+VALUE "<project>\synthesis\ANDgate_1.so,so"
+STATE="utd"
+TIME="1552633812"
+SIZE="237"
+ENDFILE
+VALUE "<project>\synthesis\ANDgate_1_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1552633812"
+SIZE="807"
+ENDFILE
+VALUE "<project>\synthesis\ANDgate_1_syn.prj,prj"
+STATE="utd"
+TIME="1788936198"
+SIZE="2082"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1624347566"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\TOP.edn,syn_edn"
+STATE="utd"
+TIME="1788935450"
+SIZE="897841"
+ENDFILE
+VALUE "<project>\synthesis\TOP.so,so"
+STATE="utd"
+TIME="1788935450"
+SIZE="274"
+ENDFILE
+VALUE "<project>\synthesis\TOP_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1788935450"
+SIZE="2102"
+ENDFILE
+VALUE "<project>\synthesis\TOP_syn.prj,prj"
+STATE="utd"
+TIME="1788936198"
+SIZE="4761"
+ENDFILE
+VALUE "F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\ANDgate_1.edn,syn_edn"
+STATE="ood"
+TIME="1552633812"
+SIZE="3600"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "ANDgate_1::work"
+FILE "<project>\hdl\andgate_1.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\ANDgate_1.edn,syn_edn"
+VALUE "<project>\synthesis\ANDgate_1.vm,syn_vm"
+VALUE "<project>\synthesis\ANDgate_1_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\ANDgate_1.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\ANDgate_1.adb,adb"
+VALUE "<project>\designer\impl1\ANDgate_1.fdb,fdb"
+VALUE "<project>\designer\impl1\ANDgate_1.pdb,pdb"
+VALUE "<project>\designer\impl1\ANDgate_1.stp,stp"
+VALUE "<project>\designer\impl1\ANDgate_1_fp\ANDgate_1.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
+ENDLIST
+ENDLIST
+LIST "TOP::work"
+FILE "<project>\component\work\TOP\TOP.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\topmain.vhd,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST TOP
+VALUE "<project>\stimulus\topmain.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "ANDgate_1::work"
+LIST Impl1
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\ANDgate_1.edn,syn_edn"
+VALUE "<project>\synthesis\ANDgate_1.vm,syn_vm"
+VALUE "<project>\synthesis\ANDgate_1_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\ANDgate_1.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\ANDgate_1_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\ANDgate_1.adb,adb"
+VALUE "<project>\designer\impl1\ANDgate_1.fdb,fdb"
+VALUE "<project>\designer\impl1\ANDgate_1.pdb,pdb"
+VALUE "<project>\designer\impl1\ANDgate_1.stp,stp"
+VALUE "<project>\designer\impl1\ANDgate_1_fp\ANDgate_1.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "TOP::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "andGate::work","hdl\and_3_23Feb2019.vhd","FALSE","FALSE"
+ENDLIST
+LIST "ANDgate_1::work","hdl\andgate_1.vhd","FALSE","FALSE"
+ENDLIST
+LIST "clkdiv::work","hdl\clv_div.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter256::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter32::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter_12::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "D_FF::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "decoder3x8::work","hdl\D_3_23Feb2019.vhd","FALSE","FALSE"
+ENDLIST
+LIST "edge_detector::work","hdl\edge_d_28.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "f1_input::work","hdl\f1_input.vhd","FALSE","FALSE"
+ENDLIST
+LIST "f3_input::work","hdl\f3_f4_input.vhd","FALSE","FALSE"
+ENDLIST
+LIST "f4_input::work","hdl\f4_input.vhd","FALSE","FALSE"
+ENDLIST
+LIST "f9_input::work","hdl\f9_input.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fault_input::work","hdl\input_faults.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FF_R::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fpm_input::work","hdl\fault_prss_13march19.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fpm_switch_chk::work","hdl\SR_FF27.vhd","FALSE","FALSE"
+ENDLIST
+LIST "main_file::work","hdl\main_PE_D_3_23Feb2019.vhd","FALSE","FALSE"
+SUBBLOCK "decoder3x8::work","hdl\D_3_23Feb2019.vhd","FALSE","FALSE"
+SUBBLOCK "f1_input::work","hdl\f1_input.vhd","FALSE","FALSE"
+SUBBLOCK "f3_input::work","hdl\f3_f4_input.vhd","FALSE","FALSE"
+SUBBLOCK "f9_input::work","hdl\f9_input.vhd","FALSE","FALSE"
+SUBBLOCK "fault_input::work","hdl\input_faults.vhd","FALSE","FALSE"
+SUBBLOCK "fpm_input::work","hdl\fault_prss_13march19.vhd","FALSE","FALSE"
+SUBBLOCK "priority_encoder_8_3::work","hdl\PE_3_23Feb2019.vhd","FALSE","FALSE"
+SUBBLOCK "spi::work","hdl\spi.vhd","FALSE","FALSE"
+ENDLIST
+LIST "priority_encoder_8_3::work","hdl\PE_3_23Feb2019.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "S_R_latch_top::work","hdl\Fpm_FL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "spi::work","hdl\spi.vhd","FALSE","FALSE"
+SUBBLOCK "ANDgate_1::work","hdl\andgate_1.vhd","FALSE","FALSE"
+SUBBLOCK "stopcom::work","hdl\stopcom.vhd","FALSE","FALSE"
+SUBBLOCK "switchcheck1::work","hdl\switchcheck.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stopcom::work","hdl\stopcom.vhd","FALSE","FALSE"
+ENDLIST
+LIST "switchcheck1::work","hdl\switchcheck.vhd","FALSE","FALSE"
+SUBBLOCK "D_FF::work","hdl\D_FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TOP::work","component\work\TOP\TOP.vhd","TRUE","FALSE"
+SUBBLOCK "TOP_OSC_0_OSC::work","component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "clkdiv::work","hdl\clv_div.vhd","FALSE","FALSE"
+SUBBLOCK "main_file::work","hdl\main_PE_D_3_23Feb2019.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TOP_OSC_0_OSC::work","component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "cfg_tb_fault_input::work","stimulus\tb_faul.vhd","FALSE","TRUE"
+SUBBLOCK "tb_fault_input::work","stimulus\tb_faul.vhd","FALSE","TRUE"
+ENDLIST
+LIST "tb_fault_input::work","stimulus\tb_faul.vhd","FALSE","TRUE"
+SUBBLOCK "fault_input::work","hdl\input_faults.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fpm::work","stimulus\fpm.vhd","FALSE","TRUE"
+SUBBLOCK "fpm_input::work","hdl\fault_prss_13march19.vhd","FALSE","FALSE"
+ENDLIST
+LIST "main::work","stimulus\main.vhd","FALSE","TRUE"
+SUBBLOCK "main_file::work","hdl\main_PE_D_3_23Feb2019.vhd","FALSE","FALSE"
+ENDLIST
+LIST "test_fpm::work","stimulus\test_fpm.vhd","FALSE","TRUE"
+SUBBLOCK "fpm_input::work","hdl\fault_prss_13march19.vhd","FALSE","FALSE"
+ENDLIST
+LIST "topmain::work","stimulus\topmain.vhd","FALSE","TRUE"
+SUBBLOCK "TOP::work","component\work\TOP\TOP.vhd","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\clk.sdc"
+VALUE "constraint\user.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

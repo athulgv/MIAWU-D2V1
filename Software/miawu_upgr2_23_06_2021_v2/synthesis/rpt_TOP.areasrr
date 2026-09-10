@@ -1,0 +1,970 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-4FNVPVN
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2GL005VF400STD (Microchip)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   TOP   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      385                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TOP:	385 (26.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           714                100 %                
+ARI1          237                100 %                
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TOP:	953 (64.39 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     8                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block TOP:	8 (0.54 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       32                 100 %                
+=================================================
+Total IO PADS in the block TOP:	32 (2.16 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   TOP_OSC_0_OSC   ########
+Instance path:   TOP.TOP_OSC_0_OSC                                 
+===================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TOP.TOP_OSC_0_OSC:	2 (0.14 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  12.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block TOP.TOP_OSC_0_OSC:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   clkdiv   ########
+Instance path:   TOP.clkdiv                                 
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 11.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TOP.clkdiv:	43 (2.91 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      32                 4.48 %               
+ARI1     40                 16.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TOP.clkdiv:	72 (4.86 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  25 %                 
+===================================================
+Total GLOBAL BUFFERS in the block TOP.clkdiv:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   main_file   ########
+Instance path:   TOP.main_file                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      342                88.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TOP.main_file:	342 (23.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      682                95.5 %               
+ARI1     195                82.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TOP.main_file:	877 (59.26 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     4                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block TOP.main_file:	4 (0.27 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   decoder3x8   ########
+Instance path:   main_file.decoder3x8                           
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 5.97 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.decoder3x8:	23 (1.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      54                 7.56 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.decoder3x8:	54 (3.65 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   f1_input   ########
+Instance path:   main_file.f1_input                           
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.f1_input:	1 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.140 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.f1_input:	1 (0.07 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   f3_input   ########
+Instance path:   main_file.f3_input                           
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.f3_input:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.f3_input:	19 (1.28 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   f3_input_1   ########
+Instance path:   main_file.f3_input_1                           
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.f3_input_1:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.f3_input_1:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   f9_input   ########
+Instance path:   main_file.f9_input                           
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.f9_input:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.f9_input:	19 (1.28 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   fault_input   ########
+Instance path:   main_file.fault_input                           
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_17   ########
+Instance path:   main_file.fault_input_17                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_17:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_17:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_18   ########
+Instance path:   main_file.fault_input_18                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_18:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_18:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_19   ########
+Instance path:   main_file.fault_input_19                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_19:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_19:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_20   ########
+Instance path:   main_file.fault_input_20                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_20:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_20:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_21   ########
+Instance path:   main_file.fault_input_21                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_21:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_21:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_22   ########
+Instance path:   main_file.fault_input_22                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_22:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_22:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_23   ########
+Instance path:   main_file.fault_input_23                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_23:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_23:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_24   ########
+Instance path:   main_file.fault_input_24                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_24:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_24:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_25   ########
+Instance path:   main_file.fault_input_25                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_25:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_25:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_26   ########
+Instance path:   main_file.fault_input_26                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_26:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_26:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_27   ########
+Instance path:   main_file.fault_input_27                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_27:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_27:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_28   ########
+Instance path:   main_file.fault_input_28                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_28:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_28:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_29   ########
+Instance path:   main_file.fault_input_29                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_29:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_29:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_30   ########
+Instance path:   main_file.fault_input_30                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_30:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_30:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_31   ########
+Instance path:   main_file.fault_input_31                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_31:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_31:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_32   ########
+Instance path:   main_file.fault_input_32                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_32:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_32:	19 (1.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fault_input_33   ########
+Instance path:   main_file.fault_input_33                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  2.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fault_input_33:	9 (0.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 1.54 %               
+ARI1     8                  3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fault_input_33:	19 (1.28 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   fpm_input   ########
+Instance path:   main_file.fpm_input                           
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  2.08 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.fpm_input:	8 (0.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 2.1 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.fpm_input:	15 (1.01 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   priority_encoder_8_3   ########
+Instance path:   main_file.priority_encoder_8_3                           
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      28                 3.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.priority_encoder_8_3:	28 (1.89 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  25 %                 
+===================================================
+Total GLOBAL BUFFERS in the block main_file.priority_encoder_8_3:	2 (0.14 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   spi   ########
+Instance path:   main_file.spi                           
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      109                28.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block main_file.spi:	109 (7.36 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      344                48.2 %               
+ARI1     17                 7.17 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block main_file.spi:	361 (24.39 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   stopcom   ########
+Instance path:   spi.stopcom                                 
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_0   ########
+Instance path:   spi.stopcom_0                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_0:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_1   ########
+Instance path:   spi.stopcom_1                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_1:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_2   ########
+Instance path:   spi.stopcom_2                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_2:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_3   ########
+Instance path:   spi.stopcom_3                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_3:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_4   ########
+Instance path:   spi.stopcom_4                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_4:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_5   ########
+Instance path:   spi.stopcom_5                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_5:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_6   ########
+Instance path:   spi.stopcom_6                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_6:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_7   ########
+Instance path:   spi.stopcom_7                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_7:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   stopcom_8   ########
+Instance path:   spi.stopcom_8                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.5190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.stopcom_8:	2 (0.14 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   switchcheck1   ########
+Instance path:   spi.switchcheck1                                 
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      63                 16.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi.switchcheck1:	63 (4.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      283                39.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi.switchcheck1:	283 (19.12 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   D_FF   ########
+Instance path:   switchcheck1.D_FF                        
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_0   ########
+Instance path:   switchcheck1.D_FF_0                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_0:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_1   ########
+Instance path:   switchcheck1.D_FF_1                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_1:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_2   ########
+Instance path:   switchcheck1.D_FF_2                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_2:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_3   ########
+Instance path:   switchcheck1.D_FF_3                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_3:	1 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.140 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block switchcheck1.D_FF_3:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_4   ########
+Instance path:   switchcheck1.D_FF_4                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_4:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_5   ########
+Instance path:   switchcheck1.D_FF_5                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_5:	1 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.140 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block switchcheck1.D_FF_5:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_6   ########
+Instance path:   switchcheck1.D_FF_6                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_6:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_7   ########
+Instance path:   switchcheck1.D_FF_7                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_7:	1 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.140 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block switchcheck1.D_FF_7:	1 (0.07 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   D_FF_9   ########
+Instance path:   switchcheck1.D_FF_9                        
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.260 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block switchcheck1.D_FF_9:	1 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.140 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block switchcheck1.D_FF_9:	1 (0.07 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

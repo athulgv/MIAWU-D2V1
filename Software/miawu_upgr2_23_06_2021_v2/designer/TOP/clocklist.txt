@@ -1,0 +1,6 @@
+"OSC_0/I_XTLOSC:CLKOUT",,"OSC_0/I_XTLOSC:CLKOUT","OSC_0/I_XTLOSC:CLKOUT"
+"RDY",,"RDY","RDY"
+"clkdiv_0/a1:Q",,"clkdiv_0/a1:Q","clkdiv_0/a1:Q"
+"clkdiv_0/a2:Q",,"clkdiv_0/a2:Q","clkdiv_0/a2:Q"
+"main_file_0/spi1/path:Q",,"main_file_0/spi1/path:Q","main_file_0/spi1/path:Q"
+"main_file_0/spi1/spl:Q",,"main_file_0/spi1/spl:Q","main_file_0/spi1/spl:Q"

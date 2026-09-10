@@ -1,0 +1,175 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-4FNVPVN
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 28
+FID:  path (prevtimestamp, timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.vhd (N/A, 2024-01-04 21:41:02)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\arith.vhd (N/A, 2024-01-04 21:34:42)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\location.map (N/A, 2024-01-04 21:34:42)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\numeric.vhd (N/A, 2024-01-04 21:58:28)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std.vhd (N/A, 2024-01-04 21:34:42)
+5        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd (N/A, 2024-01-04 21:34:42)
+6        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std_textio.vhd (N/A, 2024-01-04 21:34:42)
+7        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\unsigned.vhd (N/A, 2024-01-04 21:34:42)
+8        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\hyperents.vhd (N/A, 2024-01-04 21:34:42)
+9        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (N/A, 2024-01-04 21:34:42)
+10       C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\umr_capim.vhd (N/A, 2024-01-04 21:34:42)
+11       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19)
+12       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19)
+13       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19)
+14       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd (N/A, 2019-03-21 11:09:40)
+15       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21)
+16       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd (N/A, 2021-06-18 15:04:04)
+17       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\andgate_1.vhd (N/A, 2019-03-08 18:05:23)
+18       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\clv_div.vhd (N/A, 2023-07-06 22:08:06)
+19       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f1_input.vhd (N/A, 2021-06-21 16:44:41)
+20       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd (N/A, 2021-06-22 16:14:11)
+21       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd (N/A, 2021-06-22 16:18:15)
+22       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd (N/A, 2021-06-23 11:59:53)
+23       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd (N/A, 2021-06-22 16:08:04)
+24       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43)
+25       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29)
+26       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\stopcom.vhd (N/A, 2021-06-22 17:46:44)
+27       E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 27
+MID:  lib.cell.view
+0        work.andgate_1.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\andgate_1.vhd (N/A, 2019-03-08 18:05:23) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+2        work.clkdiv.c1 may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\clv_div.vhd (N/A, 2023-07-06 22:08:06) <-- (architecture and entity definition)
+4        work.counter.rtl may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+6        work.counter256.rtl may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+8        work.counter32.rtl may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+10       work.counter_12.rtl may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+12       work.d_ff.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+14       work.decoder3x8.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd (N/A, 2019-03-21 11:09:40) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+16       work.f1_input.arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f1_input.vhd (N/A, 2021-06-21 16:44:41) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+18       work.f3_input.arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd (N/A, 2021-06-22 16:14:11) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+20       work.f9_input.arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd (N/A, 2021-06-22 16:18:15) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+22       work.fault_input.arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd (N/A, 2021-06-22 16:08:04) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+24       work.ff_r.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd (N/A, 2021-06-22 17:41:21) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (may instantiate this module)
+26       work.fpm_input.arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd (N/A, 2021-06-23 11:59:53) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+28       work.main_file.behav may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (architecture and entity definition)
+30       work.priority_encoder_8_3.priority_enc_arc may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd (N/A, 2021-06-18 15:04:04) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+32       work.rcosc_1mhz.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+34       work.rcosc_1mhz_fab.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+36       work.rcosc_25_50mhz.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+38       work.rcosc_25_50mhz_fab.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+40       work.spi.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (architecture and entity definition)
+42       work.stopcom.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\stopcom.vhd (N/A, 2021-06-22 17:46:44) <-- (architecture and entity definition)
+44       work.switchcheck1.behavioral may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd (N/A, 2021-06-23 12:05:43) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd (N/A, 2021-06-23 10:53:29) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd (N/A, 2021-06-23 10:58:12) <-- (architecture and entity definition)
+46       work.top.rtl may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (architecture and entity definition)
+48       work.top_osc_0_osc.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+50       work.xtlosc.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+52       work.xtlosc_fab.def_arch may have changed because the following files changed:
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (N/A, 2026-09-09 12:17:19) <-- (architecture and entity definition)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+                        E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd (N/A, 2026-09-10 15:16:19) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

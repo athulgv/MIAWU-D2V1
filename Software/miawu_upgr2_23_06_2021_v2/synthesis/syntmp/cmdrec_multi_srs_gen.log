@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.TOP  -multisrs  "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synwork\TOP_comp.srs"  -osyn  "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synwork\TOP_mult.srs"  -log  "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synlog\TOP_multi_srs_gen.srr" 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top work.TOP -multisrs "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synwork\TOP_comp.srs" -osyn "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synwork\TOP_mult.srs" -log "E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\synlog\TOP_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\top_comp.srs|io:i|time:1789033693|size:38441|exec:0|csum:B586CF050B550808D1830F343ABE180A
+file:..\synwork\top_mult.srs|io:o|time:1789033694|size:5254|exec:0|csum:
+file:..\synlog\top_multi_srs_gen.srr|io:o|time:1789033694|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

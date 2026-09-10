@@ -1,0 +1,573 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</p>
+        <p>Date: Thu Sep 10 15:18:39 2026
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[7] </td>
+                <td>(225, 30)</td>
+                <td>main_file_0/reset_rep_RNIAFNE4/U0_YNn_GSouth</td>
+                <td>218</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[6] </td>
+                <td>(224, 30)</td>
+                <td>clkdiv_0/a1_inferred_clock_RNI5AUB7/U0_YNn_GSouth</td>
+                <td>171</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(221, 30)</td>
+                <td>clkdiv_0/a2_inferred_clock_RNI6P7M2/U0_YNn_GSouth</td>
+                <td>109</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GB[4] </td>
+                <td>(222, 30)</td>
+                <td>OSC_0/I_XTLOSC_FAB_CLKINT/U0_YNn</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GB[2] </td>
+                <td>(220, 30)</td>
+                <td>main_file_0/fclock_RNIJS6P6/U0_YNn_GSouth</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>GB[1] </td>
+                <td>(219, 30)</td>
+                <td>main_file_0/module_j_inst/dout_inferred_clock_RNIRKS73[3]/U0_YNn_GSouth</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>GB[0] </td>
+                <td>(218, 30)</td>
+                <td>main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNI97OU4/U0_YNn_GSouth</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>GB[5] </td>
+                <td>(223, 30)</td>
+                <td>RDY_ibuf_RNIKQJN1/U0_YNn_GSouth</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>RDY</td>
+                <td>63</td>
+                <td>MSIO101NB4</td>
+                <td>RDY_ibuf/U0/U_IOIN:Y</td>
+                <td>(231, 1)</td>
+                <td>GB[5] </td>
+                <td>RDY_ibuf</td>
+                <td>ROUTED</td>
+                <td>31</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>main_file_0/reset_rep:Q</td>
+                <td>(185, 13)</td>
+                <td>GB[7] </td>
+                <td>main_file_0/reset_rep</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>clkdiv_0/a1:Q</td>
+                <td>(236, 34)</td>
+                <td>GB[6] </td>
+                <td>clkdiv_0/a1</td>
+                <td>ROUTED</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>clkdiv_0/a2:Q</td>
+                <td>(264, 22)</td>
+                <td>GB[3] </td>
+                <td>clkdiv_0/a2</td>
+                <td>ROUTED</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>OSC_0/I_XTLOSC_FAB:CLKOUT</td>
+                <td>(401, 44)</td>
+                <td>GB[4] </td>
+                <td>OSC_0/N_XTLOSC_CLKINT</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>main_file_0/fclock:Y</td>
+                <td>(232, 33)</td>
+                <td>GB[2] </td>
+                <td>main_file_0/fclock_0</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>main_file_0/module_j_inst/dout_inferred_clock_RNO[3]:Y</td>
+                <td>(132, 12)</td>
+                <td>GB[1] </td>
+                <td>main_file_0/dout[3]</td>
+                <td>ROUTED</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNO:Y</td>
+                <td>(134, 15)</td>
+                <td>GB[0] </td>
+                <td>main_file_0/module_j_inst/un91_din</td>
+                <td>ROUTED</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <p>(none)</p>
+        <h2>CCC Input Connections</h2>
+        <p>(none)</p>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> RGB Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[7] </td>
+                <td>(225, 30)</td>
+                <td>main_file_0/reset_rep_RNIAFNE4/U0_YNn_GSouth</td>
+                <td>218</td>
+                <td>1</td>
+                <td>(219, 3)</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(220, 6)</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(221, 12)</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(222, 9)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(222, 15)</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(222, 18)</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[6] </td>
+                <td>(224, 30)</td>
+                <td>clkdiv_0/a1_inferred_clock_RNI5AUB7/U0_YNn_GSouth</td>
+                <td>171</td>
+                <td>1</td>
+                <td>(218, 3)</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 6)</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(219, 9)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(219, 12)</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(219, 18)</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(220, 15)</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(221, 30)</td>
+                <td>clkdiv_0/a2_inferred_clock_RNI6P7M2/U0_YNn_GSouth</td>
+                <td>109</td>
+                <td>1</td>
+                <td>(219, 6)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(219, 21)</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(220, 12)</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(221, 9)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(221, 15)</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(221, 18)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GB[4] </td>
+                <td>(222, 30)</td>
+                <td>OSC_0/I_XTLOSC_FAB_CLKINT/U0_YNn</td>
+                <td>43</td>
+                <td/>
+                <td>(218, 33)</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GB[2] </td>
+                <td>(220, 30)</td>
+                <td>main_file_0/fclock_RNIJS6P6/U0_YNn_GSouth</td>
+                <td>27</td>
+                <td>1</td>
+                <td>(218, 15)</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 18)</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>GB[1] </td>
+                <td>(219, 30)</td>
+                <td>main_file_0/module_j_inst/dout_inferred_clock_RNIRKS73[3]/U0_YNn_GSouth</td>
+                <td>15</td>
+                <td>1</td>
+                <td>(218, 9)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 12)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(219, 15)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>GB[0] </td>
+                <td>(218, 30)</td>
+                <td>main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNI97OU4/U0_YNn_GSouth</td>
+                <td>8</td>
+                <td/>
+                <td>(220, 9)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>GB[5] </td>
+                <td>(223, 30)</td>
+                <td>RDY_ibuf_RNIKQJN1/U0_YNn_GSouth</td>
+                <td>3</td>
+                <td>1</td>
+                <td>(220, 21)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(223, 15)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(223, 18)</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Warning: Local Clock Nets</h2>
+        <p>The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to Single Event Effects (SEEs) and have less predictable amounts of clock jitter versus the dedicated global resources. Microchip recommends using clock input and clock generation paths that maximize the usage of dedicated global routing resources, as well as promoting these signals to dedicated global resources. Refer to the RTG4 Clocking Resources User Guide and RTG4 Radiation-Mitigated Clock and Reset Network Usage Application Note for more information.
+</p>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> Driving Net </th>
+                <th> To </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>main_file_0/spi1/path:Q</td>
+                <td>main_file_0/spi1/path</td>
+                <td>main_file_0/spi1/spi0/A4_5/Q:CLK</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>main_file_0/spi1/spi0/pu_sd_0_0:Y</td>
+                <td>main_file_0/spi1/spi0/pu_sd</td>
+                <td>main_file_0/spi1/spi0/A2/Q:CLK</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>main_file_0/spi1/spi0/load_0_0:Y</td>
+                <td>main_file_0/spi1/spi0/load</td>
+                <td>main_file_0/spi1/spi0/ins:CLK</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>main_file_0/spi1/spi0/un1_cs_rdint_2_0_a2_0_a4_0_a2:Y</td>
+                <td>main_file_0/spi1/spi0/un1_cs_rdint_2_0_a2_0_a4_0_a2</td>
+                <td>main_file_0/spi1/spi0/qrdint_res:CLK</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>main_file_0/spi1/rd_int:Q</td>
+                <td>main_file_0/spi1/rd_int</td>
+                <td>main_file_0/spi1/spi0/A10_5/Q:CLK</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>main_file_0/spi1/spi0/un1_cs_ply_2_0_a2_0_a4_0_a2:Y</td>
+                <td>main_file_0/spi1/spi0/un1_cs_ply_2_0_a2_0_a4_0_a2</td>
+                <td>main_file_0/spi1/spi0/pq1res:CLK</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>main_file_0/spi1/spl:Q</td>
+                <td>main_file_0/spi1/spl</td>
+                <td>main_file_0/spi1/spi0/A4/Q:CLK</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>main_file_0/spi1/spi0/un1_cs_path_2_0_a2_0_a4_0_a2:Y</td>
+                <td>main_file_0/spi1/spi0/un1_cs_path_2_0_a2_0_a4_0_a2</td>
+                <td>main_file_0/spi1/spi0/qpath_res:CLK</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>main_file_0/spi1/spi0/un1_cs_pu_2_0_a2_0_a4_0_a2:Y</td>
+                <td>main_file_0/spi1/spi0/un1_cs_pu_2_0_a2_0_a4_0_a2</td>
+                <td>main_file_0/spi1/spi0/q1res:CLK</td>
+            </tr>
+        </table>
+    </body>
+</html>

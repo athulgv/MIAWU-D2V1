@@ -1,0 +1,184 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Sep 10 15:18:31 2026
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL005        |
+| Package                        | 144 TQ         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------+
+| Topcell | TOP                                                                                            |
+| Format  | EDIF                                                                                           |
+| Source  | E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\synthesis\TOP.edn |
++---------+------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 941  | 6060  | 15.53      |
+| DFF                       | 385  | 6060  | 6.35       |
+| I/O Register              | 0    | 252   | 0.00       |
+| User I/O                  | 32   | 84    | 38.10      |
+| -- Single-ended I/O       | 32   | 84    | 38.10      |
+| -- Differential I/O Pairs | 0    | 38    | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 8    | 8     | 100.00     |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 1    | 1     | 100.00     |
+| HPMS                      | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 941  | 385 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 941  | 385 |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| 7      | 1    |
+| 8      | 21   |
+| 10     | 3    |
+| 15     | 2    |
+| Total  | 28   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 28           | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  28   |  4     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                               |
++--------+---------+------------------------------------------------------------------------------------+
+| 218    | INT_NET | Net   : main_file_0/reset_arst                                                     |
+|        |         | Driver: main_file_0/reset_rep_RNIAFNE4/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                    |
+| 171    | INT_NET | Net   : clkdiv_0_clkout1                                                           |
+|        |         | Driver: clkdiv_0/a1_inferred_clock_RNI5AUB7/U0_RGB1                                |
+|        |         | Source: NETLIST                                                                    |
+| 109    | INT_NET | Net   : clkdiv_0_clkout2                                                           |
+|        |         | Driver: clkdiv_0/a2_inferred_clock_RNI6P7M2/U0_RGB1                                |
+|        |         | Source: NETLIST                                                                    |
+| 43     | INT_NET | Net   : OSC_0_XTLOSC_O2F                                                           |
+|        |         | Driver: OSC_0/I_XTLOSC_FAB_CLKINT/U0_RGB1                                          |
+|        |         | Source: NETLIST                                                                    |
+| 27     | INT_NET | Net   : main_file_0/fclock                                                         |
+|        |         | Driver: main_file_0/fclock_RNIJS6P6/U0_RGB1                                        |
+|        |         | Source: NETLIST                                                                    |
+| 15     | INT_NET | Net   : main_file_0/sig3                                                           |
+|        |         | Driver: main_file_0/module_j_inst/dout_inferred_clock_RNIRKS73[3]/U0_RGB1          |
+|        |         | Source: NETLIST                                                                    |
+| 8      | INT_NET | Net   : main_file_0/un91_din_data                                                  |
+|        |         | Driver: main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNI97OU4/U0_RGB1 |
+|        |         | Source: NETLIST                                                                    |
+| 3      | INT_NET | Net   : RDY_c                                                                      |
+|        |         | Driver: RDY_ibuf_RNIKQJN1/U0_RGB1                                                  |
+|        |         | Source: NETLIST                                                                    |
++--------+---------+------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                  |
++--------+---------+-----------------------------------------------------------------------+
+| 75     | INT_NET | Net   : main_file_0/rest_enable1                                      |
+|        |         | Driver: main_file_0/p1/rest_enable_sig                                |
+| 57     | INT_NET | Net   : main_file_0/spi1/spi0/N_625                                   |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_55_ss6_i_i_o2_i_o2               |
+| 31     | INT_NET | Net   : RDY_ibuf                                                      |
+|        |         | Driver: RDY_ibuf                                                      |
+| 29     | INT_NET | Net   : main_file_0/spi1/spi0/N_621_li                                |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_55_0_0_o2[1]                     |
+| 28     | INT_NET | Net   : main_file_0/spi1/spl                                          |
+|        |         | Driver: main_file_0/spi1/spl                                          |
+| 26     | INT_NET | Net   : main_file_0/spi1/un13_input2                                  |
+|        |         | Driver: main_file_0/spi1/un13_input2                                  |
+| 25     | INT_NET | Net   : main_file_0/module_j_inst/un91_din                            |
+|        |         | Driver: main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNO |
+| 24     | INT_NET | Net   : ack_c                                                         |
+|        |         | Driver: ack_ibuf                                                      |
+| 24     | INT_NET | Net   : main_file_0/spi1/spi0/N_527                                   |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_5_sqmuxa_9_i_0_0                 |
+| 23     | INT_NET | Net   : main_file_0/spi1/path                                         |
+|        |         | Driver: main_file_0/spi1/path                                         |
++--------+---------+-----------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                  |
++--------+---------+-----------------------------------------------------------------------+
+| 75     | INT_NET | Net   : main_file_0/rest_enable1                                      |
+|        |         | Driver: main_file_0/p1/rest_enable_sig                                |
+| 57     | INT_NET | Net   : main_file_0/spi1/spi0/N_625                                   |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_55_ss6_i_i_o2_i_o2               |
+| 31     | INT_NET | Net   : RDY_ibuf                                                      |
+|        |         | Driver: RDY_ibuf                                                      |
+| 29     | INT_NET | Net   : main_file_0/spi1/spi0/N_621_li                                |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_55_0_0_o2[1]                     |
+| 28     | INT_NET | Net   : main_file_0/spi1/spl                                          |
+|        |         | Driver: main_file_0/spi1/spl                                          |
+| 26     | INT_NET | Net   : main_file_0/spi1/un13_input2                                  |
+|        |         | Driver: main_file_0/spi1/un13_input2                                  |
+| 25     | INT_NET | Net   : main_file_0/module_j_inst/un91_din                            |
+|        |         | Driver: main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNO |
+| 24     | INT_NET | Net   : ack_c                                                         |
+|        |         | Driver: ack_ibuf                                                      |
+| 24     | INT_NET | Net   : main_file_0/spi1/spi0/N_527                                   |
+|        |         | Driver: main_file_0/spi1/spi0/shreg1_5_sqmuxa_9_i_0_0                 |
+| 23     | INT_NET | Net   : main_file_0/spi1/path                                         |
+|        |         | Driver: main_file_0/spi1/path                                         |
++--------+---------+-----------------------------------------------------------------------+
+

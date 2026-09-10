@@ -1,0 +1,3 @@
+@E: CD578 :"F:\SYSTEMS AIDS\Miawu\UPGRADATION 2\MIAWU_UPGRADATION2_22_06_2021\hdl\spi.vhd":96:0:96:6|Illegal redeclaration 
+@E: Parse errors encountered - exiting
+

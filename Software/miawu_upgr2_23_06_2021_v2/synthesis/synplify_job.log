@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "15:18:25    10-Sep-2026",
+	"Working Directory" : "E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "15:18:08",
+   "Runtime" : "17s",
+   "Executable Run Time" : "16s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "15:18:08",
+      "Runtime" : "17s",
+      "Executable Run Time" : "16s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "15:18:08",
+         "Runtime" : "08s",
+         "Executable Run Time" : "07s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "15:18:08",
+            "Runtime" : "06s",
+            "Executable Run Time" : "05s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "15:18:08",
+               "Run Time" : "06s",
+               "Exe Run Time" : "05s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "15:18:14",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "15:18:14",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "15:18:16",
+         "Runtime" : "09s",
+         "Executable Run Time" : "09s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "15:18:16",
+            "Run Time" : "09s",
+            "Exe Run Time" : "09s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

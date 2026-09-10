@@ -1,0 +1,231 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.8 SP3 11.8.3.6
+
+# Family: IGLOO2 , Die: M2GL005 , Package: 144 TQ
+
+# Date generated: Thu Mar 21 17:00:32 2019 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io AGlamp          \
+    -pinname 92        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io F25            \
+    -pinname 86       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io INT            \
+    -pinname 94       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io RDY            \
+    -pinname 63       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io ack            \
+    -pinname 42       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io cs              \
+    -pinname 101       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io cwp            \
+    -pinname 40       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f1             \
+    -pinname 21       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f10            \
+    -pinname 52       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f11            \
+    -pinname 53       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f12            \
+    -pinname 57       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f13            \
+    -pinname 60       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f14            \
+    -pinname 61       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f15            \
+    -pinname 67       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f16            \
+    -pinname 82       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f17            \
+    -pinname 28       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f18            \
+    -pinname 30       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f19            \
+    -pinname 34       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f2             \
+    -pinname 19       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f20            \
+    -pinname 36       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f21            \
+    -pinname 38       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f22            \
+    -pinname 47       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f3             \
+    -pinname 15       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f4             \
+    -pinname 13       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f5             \
+    -pinname 9        \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f6             \
+    -pinname 7        \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f7             \
+    -pinname 3        \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f8             \
+    -pinname 1        \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io f9             \
+    -pinname 50       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io fpm            \
+    -pinname 85       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io sclk            \
+    -pinname 98        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io sdata           \
+    -pinname 100       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

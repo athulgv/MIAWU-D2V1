@@ -1,0 +1,67 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd":17:7:17:9|Top entity is set to TOP.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\clv_div.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f1_input.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\andgate_1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\stopcom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\TOP.vhd":17:7:17:9|Synthesizing work.top.rtl.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":8:7:8:19|Synthesizing work.top_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":95:7:95:16|Synthesizing work.xtlosc_fab.def_arch.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":7:7:7:15|Synthesizing work.main_file.behav.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":177:24:177:31|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_3_23Feb2019.vhd":6:7:6:16|Synthesizing work.decoder3x8.behavioral.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\PE_3_23Feb2019.vhd":5:7:5:26|Synthesizing work.priority_encoder_8_3.priority_enc_arc.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\spi.vhd":29:7:29:9|Synthesizing work.spi.behavioral.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":31:7:31:18|Synthesizing work.switchcheck1.behavioral.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":414:22:414:27|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\D_FF.vhd":24:7:24:10|Synthesizing work.d_ff.behavioral.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\stopcom.vhd":30:7:30:13|Synthesizing work.stopcom.behavioral.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\andgate_1.vhd":6:7:6:15|Synthesizing work.andgate_1.behavioral.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":8:7:8:17|Synthesizing work.fault_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\input_faults.vhd":57:20:57:31|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":8:7:8:14|Synthesizing work.f9_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f9_input.vhd":57:20:57:31|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":8:7:8:14|Synthesizing work.f3_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f3_f4_input.vhd":57:20:57:31|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\f1_input.vhd":7:7:7:14|Synthesizing work.f1_input.arc.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":7:7:7:15|Synthesizing work.fpm_input.arc.
+@N: CD364 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\fault_prss_13march19.vhd":54:24:54:35|Removing redundant assignment.
+@N: CD630 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\clv_div.vhd":25:7:25:12|Synthesizing work.clkdiv.c1.
+@N: CL159 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\switchcheck.vhd":32:10:32:14|Input reset is unused.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(31) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(30) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(29) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(28) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(27) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(26) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(25) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(24) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(23) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(22) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(21) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(20) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(19) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(18) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(17) is always 0.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(16) is always 1.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(15) is always 1.
+@N: CL189 :"E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\hdl\main_PE_D_3_23Feb2019.vhd":170:12:170:13|Register bit counterQ(10) is always 1.
+@N|Running in 64-bit mode
+

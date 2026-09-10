@@ -1,0 +1,16 @@
+CKID0001:@|S:main_file_0.fclock@|E:main_file_0.p10.counterValue[6]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:clkdiv_0.a1@|E:main_file_0.p1.rest_enable_sig@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:clkdiv_0.a2@|E:main_file_0.counterQ[9]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:main_file_0.spi1.spl@|E:main_file_0.spi1.spi0.A4.Q@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:main_file_0.spi1.path@|E:main_file_0.spi1.spi0.A4_5.Q@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 
+CKID0006:@|S:main_file_0.spi1.rd_int@|E:main_file_0.spi1.spi0.A10_5.Q@|F:@syn_sample_clock_path==CKID0006@|M:ClockId0006 
+CKID0007:@|S:main_file_0.spi1.spi0.ins_RNO@|E:main_file_0.spi1.spi0.ins@|F:@syn_sample_clock_path==CKID0007@|M:ClockId0007 
+CKID0008:@|S:main_file_0.module_j_inst.dout_2[3]@|E:main_file_0.module_k_inst.y_1[16]@|F:@syn_sample_clock_path==CKID0008@|M:ClockId0008 
+CKID0009:@|S:main_file_0.module_j_inst.pri_enc\.un91_din_9_RNIS6KG1@|E:main_file_0.module_k_inst.y_1[10]@|F:@syn_sample_clock_path==CKID0009@|M:ClockId0009 
+CKID0010:@|S:main_file_0.spi1.spi0.m113_i@|E:main_file_0.spi1.spi0.A2.Q@|F:@syn_sample_clock_path==CKID0010@|M:ClockId0010 
+CKID0011:@|S:main_file_0.spi1.spi0.un1_cs_pu_2_0_a2_0_a3@|E:main_file_0.spi1.spi0.q1res_nlat@|F:@syn_sample_clock_path==CKID0011@|M:ClockId0011 
+CKID0012:@|S:main_file_0.spi1.spi0.un1_cs_ply_2_0_a2_0_a3@|E:main_file_0.spi1.spi0.pq1res_nlat@|F:@syn_sample_clock_path1==CKID0012@|M:ClockId0012 
+CKID0013:@|S:main_file_0.spi1.spi0.un1_cs_path_2_0_a2_0_a3@|E:main_file_0.spi1.spi0.qpath_res_nlat@|F:@syn_sample_clock_path2==CKID0013@|M:ClockId0013 
+CKID0014:@|S:main_file_0.spi1.spi0.un1_cs_rdint_2_0_a2_0_a3@|E:main_file_0.spi1.spi0.qrdint_res_nlat@|F:@syn_sample_clock_path3==CKID0014@|M:ClockId0014 
+CKID0015:@|S:OSC_0.I_XTLOSC@|E:clkdiv_0.a2@|F:@syn_sample_clock_path1==CKID0015@|M:ClockId0015 
+CKID0016:@|S:RDY@|E:main_file_0.spi1.spi0.rdint_en@|F:@syn_sample_clock_path4==CKID0016@|M:ClockId0016 

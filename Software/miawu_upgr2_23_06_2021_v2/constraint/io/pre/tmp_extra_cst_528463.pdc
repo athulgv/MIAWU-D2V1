@@ -1,0 +1,39 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2024.1 2024.1.0.3
+
+# Family: IGLOO2 , Die: M2GL005 , Package: 144 TQ
+
+# Date generated: Thu Sep 10 15:45:35 2026 
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+# 
+# User Locked I/O settings
+# 
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io XTL            \
+    -pinname 70       \
+    -DIRECTION INPUT
+
+

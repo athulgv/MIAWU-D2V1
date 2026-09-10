@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\andgate_1.vhd":6:7:6:15|Top entity is set to ANDgate_1.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\andgate_1.vhd":6:7:6:15|Synthesizing work.andgate_1.behavioral.
+@N|Running in 64-bit mode
+

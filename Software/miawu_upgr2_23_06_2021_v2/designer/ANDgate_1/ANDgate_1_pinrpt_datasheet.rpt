@@ -1,0 +1,16 @@
+*****************************************************************
+Pin Report - Date: Fri Mar 15 12:38:59 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8 SP3
+Version: 11.8.3.6
+Design Name: ANDgate_1
+Family: IGLOO2
+Die: M2GL005
+Package: 144 TQ
+*****************************************************************
+
+Port |Pin |Fixed |Function   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----|----|------|-----------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+A     136  No     DDRIO45NB0  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+B     2    No     MSIO52PB6   Bank6     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+C     144  No     DDRIO51PB0  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

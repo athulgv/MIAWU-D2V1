@@ -1,0 +1,43 @@
+Software Version: 2024.1.0.3
+Programmer '92726' : JTAG TCK frequency = 1 MHz
+Driver : 3.0.0 build 1
+programmer '92726' : FlashPro4
+Opened 'E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP_fp\TOP.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2GL005'.
+The 'enable_device' command succeeded.
+PPD file 'E:/MIAWU/03-08-2021/DARIN 2 V1 FPGA SOUCE/Software/miawu_upgr2_23_06_2021_v2/designer/TOP/TOP.ppd' has been loaded successfully.
+DESIGN : TOP;  CHECKSUM : 85BC;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '92726' : Scan Chain...
+Programmer '92726' : JTAG TCK frequency = 1 MHz
+programmer '92726' : Check Chain...
+programmer '92726' : Scan and Check Chain PASSED.
+programmer '92726' : device 'M2GL005' : Executing action PROGRAM
+Programmer '92726' : JTAG TCK frequency = 4 MHz
+programmer '92726' : device 'M2GL005' : Family: Igloo2
+programmer '92726' : device 'M2GL005' : Product:      M2GL005
+programmer '92726' : device 'M2GL005' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer '92726' : device 'M2GL005' : Programming Interface Protocol: JTAG
+programmer '92726' : device 'M2GL005' : EXPORT ISC_ENABLE_RESULT[32] = 00756444
+programmer '92726' : device 'M2GL005' : EXPORT CRCERR[1] = 0
+programmer '92726' : device 'M2GL005' : EXPORT EDCERR[1] = 0
+programmer '92726' : device 'M2GL005' : Programming FPGA Array...
+programmer '92726' : device 'M2GL005' : EXPORT Fabric component digest[256] = 90a8ea30910fbda1d225de3417db9c4d1efa008d4601f3d4eb04a5be4d4c4d4c
+programmer '92726' : device 'M2GL005' : ===================================================================================
+programmer '92726' : device 'M2GL005' : EXPORT DSN[128] = 4c985541e02f3137005ea176295ced9f
+programmer '92726' : device 'M2GL005' : ===================================================================================
+programmer '92726' : device 'M2GL005' : Finished: Thu Sep 10 15:21:53 2026 (Elapsed time 00:00:18)
+programmer '92726' : device 'M2GL005' : Executing action PROGRAM PASSED.
+programmer '92726' : Chain programming PASSED.
+Chain Programming Finished: Thu Sep 10 15:21:53 2026 (Elapsed time 00:00:18)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -1,0 +1,33 @@
+Error: Unable to find the file 'F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\ANDgate_1.edn'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       8 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     8 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    171    0      1      'clkdiv_0/a1_inferred_clock_RNI5AUB7' 
+    109    0      1      'clkdiv_0/a2_inferred_clock_RNI6P7M2' 
+    43     0      0      'OSC_0/I_XTLOSC_FAB_CLKINT' 
+    27     0      0      'main_file_0/fclock_RNIJS6P6' 
+    15     0      10     'main_file_0/module_j_inst/dout_inferred_clock_RNIRKS73[3]' 
+    8      0      17     'main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNI97OU4' 
+    3      0      30     'RDY_ibuf_RNIKQJN1' 
+    0      218    0      'main_file_0/reset_rep_RNIAFNE4' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'clkdiv_0/a1_inferred_clock_RNI5AUB7'. 
+      Disconnected 1 data pins from global 'clkdiv_0/a2_inferred_clock_RNI6P7M2'. 
+      Disconnected 10 data pins from global 'main_file_0/module_j_inst/dout_inferred_clock_RNIRKS73[3]'. 
+      Disconnected 17 data pins from global 'main_file_0/module_j_inst/pri_enc.un91_din_inferred_clock_RNI97OU4'. 
+      Disconnected 30 data pins from global 'RDY_ibuf_RNIKQJN1'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

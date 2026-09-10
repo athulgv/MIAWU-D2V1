@@ -1,0 +1,908 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-EGPQAJH0
+
+# Fri Mar 15 12:41:10 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\TOP.vhd":17:7:17:9|Top entity is set to TOP.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\TOP.vhd":17:7:17:9|Synthesizing work.top.rtl.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":8:7:8:19|Synthesizing work.top_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+Post processing for work.xtlosc.def_arch
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":95:7:95:16|Synthesizing work.xtlosc_fab.def_arch.
+Post processing for work.xtlosc_fab.def_arch
+Post processing for work.top_osc_0_osc.def_arch
+@W: CL240 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":12:10:12:27|Signal RCOSC_25_50MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\component\work\TOP\OSC_0\TOP_OSC_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":4:7:4:15|Synthesizing work.main_file.behav.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":94:17:94:20|Signal sig3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":97:7:97:10|Signal f2_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":97:24:97:27|Signal f3_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":97:41:97:44|Signal f4_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":97:58:97:61|Signal f5_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":98:7:98:10|Signal f6_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:7:101:13|Signal and1out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:16:101:22|Signal and2out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:25:101:31|Signal and3out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:34:101:40|Signal and4out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:43:101:49|Signal and5out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:52:101:58|Signal and6out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:61:101:67|Signal and7out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":101:70:101:76|Signal and8out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:7:102:12|Signal and1in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:14:102:19|Signal and2in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:21:102:26|Signal and3in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:28:102:33|Signal and4in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:35:102:40|Signal and5in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:42:102:47|Signal and6in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:49:102:54|Signal and7in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":102:56:102:61|Signal and8in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":103:7:103:10|Signal fpm2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\main_PE_D_3_23Feb2019.vhd":104:7:104:7|Signal f is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\D_3_23Feb2019.vhd":6:7:6:16|Synthesizing work.decoder3x8.behavioral.
+Post processing for work.decoder3x8.behavioral
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\PE_3_23Feb2019.vhd":5:7:5:26|Synthesizing work.priority_encoder_8_3.priority_enc_arc.
+Post processing for work.priority_encoder_8_3.priority_enc_arc
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\PE_3_23Feb2019.vhd":18:8:18:9|Latch generated from process for signal dout(2 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":29:7:29:9|Synthesizing work.spi.behavioral.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:7:74:9|Signal in7 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:11:74:13|Signal in6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:15:74:17|Signal in8 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:19:74:21|Signal in9 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:23:74:26|Signal in10 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:28:74:31|Signal in11 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\spi.vhd":74:33:74:36|Signal in13 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":31:7:31:18|Synthesizing work.switchcheck1.behavioral.
+@N: CD364 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":414:22:414:27|Removing redundant assignment.
+@W: CD434 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":393:21:393:25|Signal shreg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":393:0:393:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":671:37:671:43|Referenced variable ensclk1 is not in sensitivity list.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":79:7:79:11|Signal shreg is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\D_FF.vhd":24:7:24:10|Synthesizing work.d_ff.behavioral.
+Post processing for work.d_ff.behavioral
+Post processing for work.switchcheck1.behavioral
+@W: CL113 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":281:4:281:5|Feedback mux created for signal q_rdint[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":281:4:281:5|Latch generated from process for signal rdint_en; possible missing assignment in an if or case statement.
+@W: CL113 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":238:4:238:5|Feedback mux created for signal q_path[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":238:4:238:5|Latch generated from process for signal path_en; possible missing assignment in an if or case statement.
+@W: CL113 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":194:4:194:5|Feedback mux created for signal pq1[5:1]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":194:4:194:5|Latch generated from process for signal pq1clk; possible missing assignment in an if or case statement.
+@W: CL113 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":156:4:156:5|Feedback mux created for signal q1[5:1]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":281:4:281:5|Latch generated from process for signal qrdint_res; possible missing assignment in an if or case statement.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":238:4:238:5|Latch generated from process for signal qpath_res; possible missing assignment in an if or case statement.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":194:4:194:5|Latch generated from process for signal pq1res; possible missing assignment in an if or case statement.
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":156:4:156:5|Latch generated from process for signal q1res; possible missing assignment in an if or case statement.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\stopcom.vhd":30:7:30:13|Synthesizing work.stopcom.behavioral.
+Post processing for work.stopcom.behavioral
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\andgate_1.vhd":6:7:6:15|Synthesizing work.andgate_1.behavioral.
+Post processing for work.andgate_1.behavioral
+Post processing for work.spi.behavioral
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":7:7:7:17|Synthesizing work.fault_input.arc.
+@W: CG296 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":26:6:26:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:26:31:30|Referenced variable temp1 is not in sensitivity list.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":22:17:22:21|Signal temp3 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fault_input.arc
+@W: CL113 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":50:7:50:8|Feedback mux created for signal temp1. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\f1_input.vhd":7:7:7:14|Synthesizing work.f1_input.arc.
+@W: CD638 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\f1_input.vhd":20:11:20:15|Signal temp2 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.f1_input.arc
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\fault_prss_13march19.vhd":7:7:7:15|Synthesizing work.fpm_input.arc.
+Post processing for work.fpm_input.arc
+@W: CL117 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\fault_prss_13march19.vhd":53:6:53:7|Latch generated from process for signal temp2; possible missing assignment in an if or case statement.
+@A: CL282 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\fault_prss_13march19.vhd":30:7:30:8|Feedback mux created for signal temp1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Post processing for work.main_file.behav
+@N: CD630 :"F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\hdl\clv_div.vhd":25:7:25:12|Synthesizing work.clkdiv.c1.
+Post processing for work.clkdiv.c1
+Post processing for work.top.rtl
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 15 12:41:10 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 15 12:41:11 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 15 12:41:11 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 15 12:41:12 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Mar 15 12:41:12 2019
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\designer\TOP\synthesis.fdc
+@L: F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\TOP_scck.rpt 
+Printing clock  summary report in "F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\TOP_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 103MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":109:0:109:5|Removing user instance main_file_0.p8.stop13 because it is equivalent to instance main_file_0.p8.stop11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":107:0:107:5|Removing user instance main_file_0.p8.stop11 because it is equivalent to instance main_file_0.p8.stop10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":105:0:105:4|Removing user instance main_file_0.p8.stop9 because it is equivalent to instance main_file_0.p8.stop10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":104:0:104:4|Removing user instance main_file_0.p8.stop8 because it is equivalent to instance main_file_0.p8.stop10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":103:0:103:4|Removing user instance main_file_0.p8.stop7 because it is equivalent to instance main_file_0.p8.stop10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":102:0:102:4|Removing user instance main_file_0.p8.stop6 because it is equivalent to instance main_file_0.p8.stop10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+syn_allowed_resources : blockrams=10  set on top level netlist TOP
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                            Requested     Requested     Clock        Clock                   Clock
+Clock                                            Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------
+System                                           100.0 MHz     10.000        system       system_clkgroup         12   
+TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_3     27   
+TOP|RDY                                          100.0 MHz     10.000        inferred     Inferred_clkgroup_1     104  
+clkdiv|a1_inferred_clock                         100.0 MHz     10.000        inferred     Inferred_clkgroup_2     47   
+clkdiv|a2_inferred_clock                         100.0 MHz     10.000        inferred     Inferred_clkgroup_0     79   
+=======================================================================================================================
+
+@W: MT532 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\fault_prss_13march19.vhd":53:6:53:7|Found signal identified as System clock which controls 12 sequential elements including main_file_0.p1.rest_enable.  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\stopcom.vhd":42:0:42:1|Found inferred clock clkdiv|a2_inferred_clock which controls 79 sequential elements including main_file_0.p8.stop1.rst. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\d_ff.vhd":40:4:40:5|Found inferred clock TOP|RDY which controls 104 sequential elements including main_file_0.p8.spi0.A10_clk.Q. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\fault_prss_13march19.vhd":30:7:30:8|Found inferred clock clkdiv|a1_inferred_clock which controls 47 sequential elements including main_file_0.p1.counterValue[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\clv_div.vhd":45:2:45:3|Found inferred clock TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock which controls 27 sequential elements including clkdiv_0.q9[14:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\TOP.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 15 12:41:13 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Mar 15 12:41:13 2019
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: MO231 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":331:1:331:2|Found counter in view:work.spi(behavioral) instance qintcount[5:0] 
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\stopcom.vhd":42:0:42:1|Removing sequential instance stop10.rst (in view: work.spi(behavioral)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\stopcom.vhd":45:0:45:1|Removing sequential instance stop10.op (in view: work.spi(behavioral)) because it does not drive other instances.
+@N: MO231 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":281:4:281:5|Found counter in view:work.switchcheck1(behavioral) instance q_rdint[4:0] 
+@N: MO231 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":238:4:238:5|Found counter in view:work.switchcheck1(behavioral) instance q_path[4:0] 
+@N: MO231 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":194:4:194:5|Found counter in view:work.switchcheck1(behavioral) instance pq1[5:1] 
+@N: MO231 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\switchcheck.vhd":156:4:156:5|Found counter in view:work.switchcheck1(behavioral) instance q1[5:1] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":50:7:50:8|Removing sequential instance main_file_0.p7.temp1 (in view: work.TOP(rtl)) because it does not drive other instances.
+@A: BN291 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":50:7:50:8|Boundary register main_file_0.p7.temp1 (in view: work.TOP(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.counterValue[4] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.counterValue[3] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.counterValue[2] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.counterValue[1] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.counterValue[0] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: BN362 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\input_faults.vhd":31:7:31:8|Removing sequential instance main_file_0.p7.temp2 (in view: work.TOP(rtl)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 155MB peak: 157MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.49ns		 376 /       156
+   2		0h:00m:01s		    -2.02ns		 363 /       156
+   3		0h:00m:01s		    -2.02ns		 362 /       156
+@N: FX271 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":331:1:331:2|Replicating instance main_file_0.p8.pui (in view: work.TOP(rtl)) with 15 loads 1 time to improve timing.
+@N: FX271 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\hdl\spi.vhd":331:1:331:2|Replicating instance main_file_0.p8.sdi (in view: work.TOP(rtl)) with 15 loads 1 time to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   4		0h:00m:03s		    -1.40ns		 386 /       158
+   5		0h:00m:03s		    -0.97ns		 387 /       158
+   6		0h:00m:03s		    -0.91ns		 388 /       158
+
+
+   7		0h:00m:03s		    -0.91ns		 387 /       158
+@N: FP130 |Promoting Net clkdiv_0_clkout2 on CLKINT  I_139 
+@N: FP130 |Promoting Net clkdiv_0_clkout1 on CLKINT  I_140 
+@N: FP130 |Promoting Net main_file_0.p8.input2_i on CLKINT  I_141 
+@N: FP130 |Promoting Net RDY_c on CLKINT  I_142 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 147MB peak: 162MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 162MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 31 clock pin(s) of sequential element(s)
+17 gated/generated clock tree(s) driving 135 clock pin(s) of sequential element(s)
+0 instances converted, 135 sequential instances remain driven by gated/generated clocks
+
+================================== Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance             
+----------------------------------------------------------------------------------------------------
+@K:CKID0018       XTL                 port                   27         clkdiv_0.a2                 
+@K:CKID0019       RDY                 port                   3          main_file_0.p8.spi0.rdint_en
+@K:CKID0020       ack                 port                   1          main_file_0.p1.rest_enable  
+====================================================================================================
+=================================================================================== Gated/Generated Clocks ====================================================================================
+Clock Tree ID     Driving Element                                  Drive Element Type     Fanout     Sample Instance                    Explanation                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clkdiv_0.a2                                      SLE                    80         main_file_0.p8.sdi_fast            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       clkdiv_0.a1                                      SLE                    40         main_file_0.p6.temp1               No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0003       main_file_0.p8.spl                               SLE                    1          main_file_0.p8.spi0.A4.Q           No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0004       main_file_0.p8.path                              SLE                    1          main_file_0.p8.spi0.A4_5.Q         No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0005       main_file_0.p8.rd_int                            SLE                    1          main_file_0.p8.spi0.A10_5.Q        No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0006       main_file_0.p8.enable5.N_84_i                    CFG2                   1          main_file_0.p8.stop1.op            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0007       main_file_0.p8.spi0.shreg1_5_sqmuxa_7_i_o2_0     CFG3                   1          main_file_0.p8.stop2.op            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0008       main_file_0.p8.enable2.ip112_1_i                 CFG4                   1          main_file_0.p8.stop3.op            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0009       main_file_0.p8.enable3.C_i                       CFG4                   1          main_file_0.p8.stop4.op            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0010       main_file_0.p8.enable4.ip110_1_i                 CFG4                   1          main_file_0.p8.stop5.op            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0011       main_file_0.p1.temp1_RNIBS49                     CFG2                   1          main_file_0.p8.stop12.op           No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0012       main_file_0.p8.spi0.pu_sd_0                      CFG2                   1          main_file_0.p8.spi0.A2.Q           No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0013       main_file_0.p8.spi0.load_0                       CFG4                   1          main_file_0.p8.spi0.ins            No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0014       main_file_0.p8.spi0.un1_cs_rdint_2_0_a2          CFG4                   1          main_file_0.p8.spi0.qrdint_res     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0015       main_file_0.p8.spi0.un1_cs_path_2_0_a2           CFG4                   1          main_file_0.p8.spi0.qpath_res      No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0016       main_file_0.p8.spi0.un1_cs_ply_2_0_a2            CFG4                   1          main_file_0.p8.spi0.pq1res         No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0017       main_file_0.p8.spi0.un1_cs_pu_2_0_a2             CFG4                   1          main_file_0.p8.spi0.q1res          No gated clock conversion method for cell cell:ACG4.SLE
+===============================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 162MB)
+
+Writing Analyst data base F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\synwork\TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 145MB peak: 162MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\synthesis\TOP.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 162MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 162MB)
+
+@W: MT246 :"f:\systems aids_18feb2019\miawu_main_v1_15march19\component\work\top\osc_0\top_osc_0_osc.vhd":52:4:52:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock TOP|RDY with period 10.00ns. Please declare a user-defined clock on object "p:RDY"
+@W: MT420 |Found inferred clock TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:OSC_0.N_XTLOSC_CLKOUT"
+@W: MT420 |Found inferred clock clkdiv|a1_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:clkdiv_0.a1"
+@W: MT420 |Found inferred clock clkdiv|a2_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:clkdiv_0.a2"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Mar 15 12:41:18 2019
+#
+
+
+Top view:               TOP
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\SYSTEMS AIDS_18Feb2019\miawu_main_v1_15march19\designer\TOP\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.701
+
+                                                 Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                   Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     100.0 MHz     299.2 MHz     10.000        3.342         6.658     inferred     Inferred_clkgroup_3
+TOP|RDY                                          100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+clkdiv|a1_inferred_clock                         100.0 MHz     284.7 MHz     10.000        3.512         6.488     inferred     Inferred_clkgroup_2
+clkdiv|a2_inferred_clock                         100.0 MHz     116.3 MHz     10.000        8.597         0.701     inferred     Inferred_clkgroup_0
+System                                           100.0 MHz     227.6 MHz     10.000        4.394         5.606     system       system_clkgroup    
+===================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                      Ending                                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        clkdiv|a2_inferred_clock                      |  10.000      5.787  |  No paths    -      |  10.000      5.606  |  No paths    -    
+clkdiv|a2_inferred_clock                      clkdiv|a2_inferred_clock                      |  10.000      4.713  |  10.000      3.943  |  5.000       0.701  |  5.000       3.175
+clkdiv|a2_inferred_clock                      TOP|RDY                                       |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+TOP|RDY                                       clkdiv|a2_inferred_clock                      |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+clkdiv|a1_inferred_clock                      clkdiv|a2_inferred_clock                      |  Diff grp    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+clkdiv|a1_inferred_clock                      clkdiv|a1_inferred_clock                      |  10.000      6.488  |  No paths    -      |  No paths    -      |  No paths    -    
+TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock  TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock  |  10.000      6.658  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                                     Arrival          
+Instance            Reference                                        Type     Pin     Net        Time        Slack
+                    Clock                                                                                         
+------------------------------------------------------------------------------------------------------------------
+clkdiv_0.q9[6]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q9[6]      0.108       6.658
+clkdiv_0.q9[8]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q9[8]      0.108       6.736
+clkdiv_0.q9[9]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q9[9]      0.108       6.781
+clkdiv_0.q9[10]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q9[10]     0.108       6.858
+clkdiv_0.q10[5]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q10[5]     0.087       6.924
+clkdiv_0.q10[1]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q10[1]     0.108       7.020
+clkdiv_0.q10[6]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q10[6]     0.108       7.023
+clkdiv_0.q9[0]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q9[0]      0.108       7.097
+clkdiv_0.q10[7]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q10[7]     0.108       7.097
+clkdiv_0.q10[2]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      Q       q10[2]     0.108       7.098
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                       Required          
+Instance            Reference                                        Type     Pin     Net          Time         Slack
+                    Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------
+clkdiv_0.a1         TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       a1_1         9.745        6.658
+clkdiv_0.q9[0]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[0]      9.745        6.667
+clkdiv_0.q9[6]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[6]      9.745        6.835
+clkdiv_0.q9[8]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[8]      9.745        6.835
+clkdiv_0.q9[9]      TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[9]      9.745        6.835
+clkdiv_0.q9[10]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[10]     9.745        6.835
+clkdiv_0.q9[11]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[11]     9.745        6.835
+clkdiv_0.q9[12]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q9_3[12]     9.745        6.835
+clkdiv_0.a2         TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       a2_1         9.745        6.924
+clkdiv_0.q10[4]     TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock     SLE      D       q10_3[4]     9.745        6.925
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.087
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.658
+
+    Number of logic level(s):                3
+    Starting point:                          clkdiv_0.q9[6] / Q
+    Ending point:                            clkdiv_0.a1 / D
+    The start point is clocked by            TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            TOP_OSC_0_OSC|N_XTLOSC_CLKOUT_inferred_clock [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+clkdiv_0.q9[6]         SLE      Q        Out     0.108     0.108       -         
+q9[6]                  Net      -        -       0.674     -           2         
+clkdiv_0.un1_q9_8      CFG4     D        In      -         0.783       -         
+clkdiv_0.un1_q9_8      CFG4     Y        Out     0.288     1.070       -         
+un1_q9_8               Net      -        -       0.556     -           1         
+clkdiv_0.un1_q9_11     CFG4     B        In      -         1.626       -         
+clkdiv_0.un1_q9_11     CFG4     Y        Out     0.164     1.790       -         
+un1_q9_11              Net      -        -       0.812     -           8         
+clkdiv_0.a1_1          CFG4     D        In      -         2.602       -         
+clkdiv_0.a1_1          CFG4     Y        Out     0.326     2.929       -         
+a1_1                   Net      -        -       0.159     -           1         
+clkdiv_0.a1            SLE      D        In      -         3.087       -         
+=================================================================================
+Total path delay (propagation time + setup) of 3.342 is 1.142(34.2%) logic and 2.201(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clkdiv|a1_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                          Arrival          
+Instance                           Reference                    Type     Pin     Net                 Time        Slack
+                                   Clock                                                                              
+----------------------------------------------------------------------------------------------------------------------
+main_file_0.p1.counterValue[3]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[3]     0.108       6.488
+main_file_0.p1.counterValue[2]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[2]     0.108       6.491
+main_file_0.p4.counterValue[1]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[1]     0.108       6.902
+main_file_0.p5.counterValue[1]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[1]     0.108       6.902
+main_file_0.p3.counterValue[1]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[1]     0.108       6.902
+main_file_0.p6.counterValue[1]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[1]     0.087       6.945
+main_file_0.p5.counterValue[3]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[3]     0.108       7.010
+main_file_0.p4.counterValue[3]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[3]     0.108       7.010
+main_file_0.p3.counterValue[3]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[3]     0.108       7.010
+main_file_0.p6.counterValue[2]     clkdiv|a1_inferred_clock     SLE      Q       counterValue[2]     0.087       7.028
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                            Required          
+Instance                           Reference                    Type     Pin     Net                   Time         Slack
+                                   Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------------------
+main_file_0.p1.temp1               clkdiv|a1_inferred_clock     SLE      D       temp1_1               9.745        6.488
+main_file_0.p5.counterValue[0]     clkdiv|a1_inferred_clock     SLE      D       N_3_i                 9.745        6.902
+main_file_0.p3.counterValue[0]     clkdiv|a1_inferred_clock     SLE      D       N_5_i                 9.745        6.902
+main_file_0.p4.counterValue[0]     clkdiv|a1_inferred_clock     SLE      D       N_4_i                 9.745        6.902
+main_file_0.p6.temp1               clkdiv|a1_inferred_clock     SLE      EN      un2_input_1_0_a3      9.662        6.945
+main_file_0.p1.counterValue[1]     clkdiv|a1_inferred_clock     SLE      D       counterValue_4[1]     9.745        7.074
+main_file_0.p3.temp2               clkdiv|a1_inferred_clock     SLE      EN      un2_countervalue      9.662        7.091
+main_file_0.p4.temp2               clkdiv|a1_inferred_clock     SLE      EN      un2_countervalue      9.662        7.091
+main_file_0.p5.temp2               clkdiv|a1_inferred_clock     SLE      EN      un2_countervalue      9.662        7.091
+main_file_0.p1.counterValue[0]     clkdiv|a1_inferred_clock     SLE      D       counterValue_4[0]     9.745        7.120
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.257
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.488
+
+    Number of logic level(s):                4
+    Starting point:                          main_file_0.p1.counterValue[3] / Q
+    Ending point:                            main_file_0.p1.temp1 / D
+    The start point is clocked by            clkdiv|a1_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clkdiv|a1_inferred_clock [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+main_file_0.p1.counterValue[3]            SLE      Q        Out     0.108     0.108       -         
+counterValue[3]                           Net      -        -       0.733     -           3         
+main_file_0.p1.p1\.un1_countervalue_1     CFG2     B        In      -         0.841       -         
+main_file_0.p1.p1\.un1_countervalue_1     CFG2     Y        Out     0.148     0.990       -         
+un1_countervalue_1                        Net      -        -       0.556     -           1         
+main_file_0.p1.p1\.un1_countervalue       CFG4     B        In      -         1.545       -         
+main_file_0.p1.p1\.un1_countervalue       CFG4     Y        Out     0.165     1.710       -         
+un1_countervalue                          Net      -        -       0.678     -           3         
+main_file_0.p1.temp1_0_sqmuxa             CFG2     A        In      -         2.388       -         
+main_file_0.p1.temp1_0_sqmuxa             CFG2     Y        Out     0.077     2.466       -         
+temp1_0_sqmuxa                            Net      -        -       0.556     -           1         
+main_file_0.p1.temp1_1                    CFG2     A        In      -         3.021       -         
+main_file_0.p1.temp1_1                    CFG2     Y        Out     0.077     3.099       -         
+temp1_1                                   Net      -        -       0.159     -           1         
+main_file_0.p1.temp1                      SLE      D        In      -         3.257       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 3.512 is 0.831(23.7%) logic and 2.681(76.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clkdiv|a2_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                   Arrival          
+Instance                       Reference                    Type     Pin     Net          Time        Slack
+                               Clock                                                                       
+-----------------------------------------------------------------------------------------------------------
+main_file_0.p8.spl             clkdiv|a2_inferred_clock     SLE      Q       spl          0.108       0.701
+main_file_0.p8.rd_int          clkdiv|a2_inferred_clock     SLE      Q       rd_int       0.108       0.846
+main_file_0.p8.path            clkdiv|a2_inferred_clock     SLE      Q       path         0.087       0.849
+main_file_0.p8.pui_fast        clkdiv|a2_inferred_clock     SLE      Q       pui_fast     0.108       1.340
+main_file_0.p8.pui             clkdiv|a2_inferred_clock     SLE      Q       pui          0.108       1.496
+main_file_0.p8.sdi             clkdiv|a2_inferred_clock     SLE      Q       sdi          0.108       1.554
+main_file_0.p8.sdi_fast        clkdiv|a2_inferred_clock     SLE      Q       sdi_fast     0.108       1.679
+main_file_0.p8.spi0.q1[5]      clkdiv|a2_inferred_clock     SLE      Q       q1[5]        0.108       3.175
+main_file_0.p8.spi0.q1[4]      clkdiv|a2_inferred_clock     SLE      Q       q1[4]        0.108       3.269
+main_file_0.p8.spi0.A2_1.Q     clkdiv|a2_inferred_clock     SLE      Q       cs_pu        0.087       3.575
+===========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                         Required          
+Instance                        Reference                    Type     Pin     Net                Time         Slack
+                                Clock                                                                              
+-------------------------------------------------------------------------------------------------------------------
+main_file_0.p8.q[8]             clkdiv|a2_inferred_clock     SLE      D       q_6[8]             9.745        4.713
+main_file_0.p8.q[7]             clkdiv|a2_inferred_clock     SLE      D       q_6[7]             9.745        4.729
+main_file_0.p8.q[6]             clkdiv|a2_inferred_clock     SLE      D       q_6[6]             9.745        4.745
+main_file_0.p8.q[5]             clkdiv|a2_inferred_clock     SLE      D       q_6[5]             9.745        4.762
+main_file_0.p8.q[4]             clkdiv|a2_inferred_clock     SLE      D       q_6[4]             9.745        4.778
+main_file_0.p8.q[3]             clkdiv|a2_inferred_clock     SLE      D       q_6[3]             9.745        4.794
+main_file_0.p8.q[2]             clkdiv|a2_inferred_clock     SLE      D       q_6[2]             9.745        4.811
+main_file_0.p8.q[1]             clkdiv|a2_inferred_clock     SLE      D       q_6[1]             9.745        4.827
+main_file_0.p8.q[9]             clkdiv|a2_inferred_clock     SLE      D       un1_q_6_s_8_S      9.745        5.058
+main_file_0.p8.qintcount[5]     clkdiv|a2_inferred_clock     SLE      D       qintcount_s[5]     9.745        5.327
+===================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.745
+
+    - Propagation time:                      4.043
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.701
+
+    Number of logic level(s):                5
+    Starting point:                          main_file_0.p8.spl / Q
+    Ending point:                            main_file_0.p8.spi0.shreg1[0] / D
+    The start point is clocked by            clkdiv|a2_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clkdiv|a2_inferred_clock [falling] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+main_file_0.p8.spl                        SLE      Q        Out     0.108     0.108       -         
+spl                                       Net      -        -       1.390     -           13        
+main_file_0.p8.spi0.shreg1_22s2_0         CFG2     A        In      -         1.498       -         
+main_file_0.p8.spi0.shreg1_22s2_0         CFG2     Y        Out     0.087     1.585       -         
+shreg1_22s2_0                             Net      -        -       0.933     -           17        
+main_file_0.p8.spi0.un1_input1_1_0_a2     CFG4     B        In      -         2.519       -         
+main_file_0.p8.spi0.un1_input1_1_0_a2     CFG4     Y        Out     0.148     2.667       -         
+un1_input1_1_i                            Net      -        -       0.630     -           2         
+main_file_0.p8.spi0.shreg1_RNO_5[0]       CFG4     D        In      -         3.297       -         
+main_file_0.p8.spi0.shreg1_RNO_5[0]       CFG4     Y        Out     0.271     3.569       -         
+g1_0                                      Net      -        -       0.000     -           1         
+main_file_0.p8.spi0.shreg1_RNO_2[0]       CFG4     C        In      -         3.569       -         
+main_file_0.p8.spi0.shreg1_RNO_2[0]       CFG4     Y        Out     0.203     3.772       -         
+N_1757_0                                  Net      -        -       0.000     -           1         
+main_file_0.p8.spi0.shreg1_RNO[0]         CFG4     D        In      -         3.772       -         
+main_file_0.p8.spi0.shreg1_RNO[0]         CFG4     Y        Out     0.271     4.043       -         
+shreg1_55[0]                              Net      -        -       0.000     -           1         
+main_file_0.p8.spi0.shreg1[0]             SLE      D        In      -         4.043       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 4.299 is 1.345(31.3%) logic and 2.954(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                        Arrival          
+Instance                        Reference     Type     Pin     Net              Time        Slack
+                                Clock                                                            
+-------------------------------------------------------------------------------------------------
+main_file_0.p1.rest_enable      System        SLE      Q       rest_enable1     0.108       5.606
+main_file_0.p8.stop12.op        System        SLE      Q       ip112            0.087       8.868
+main_file_0.p8.stop5.op         System        SLE      Q       ip15             0.087       8.868
+main_file_0.p8.stop4.op         System        SLE      Q       ip14             0.087       8.868
+main_file_0.p8.stop3.op         System        SLE      Q       ip103            0.087       8.868
+main_file_0.p8.stop2.op         System        SLE      Q       ip102            0.087       8.868
+main_file_0.p8.stop1.op         System        SLE      Q       ip101            0.087       8.868
+main_file_0.p8.spi0.ins         System        SLE      Q       ins              0.108       8.869
+main_file_0.p8.spi0.A10_5.Q     System        SLE      Q       cs_rdint1        0.087       8.972
+main_file_0.p8.spi0.A4_5.Q      System        SLE      Q       cs_path1         0.087       8.972
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                         Required          
+Instance                  Reference     Type     Pin     Net               Time         Slack
+                          Clock                                                              
+---------------------------------------------------------------------------------------------
+main_file_0.p8.q[8]       System        SLE      D       q_6[8]            9.745        5.787
+main_file_0.p8.q[7]       System        SLE      D       q_6[7]            9.745        5.803
+main_file_0.p8.q[6]       System        SLE      D       q_6[6]            9.745        5.819
+main_file_0.p8.q[5]       System        SLE      D       q_6[5]            9.745        5.836
+main_file_0.p8.q[4]       System        SLE      D       q_6[4]            9.745        5.851
+main_file_0.p8.q[3]       System        SLE      D       q_6[3]            9.745        5.865
+main_file_0.p8.q[2]       System        SLE      D       q_6[2]            9.745        5.880
+main_file_0.p8.q[1]       System        SLE      D       q_6[1]            9.745        5.894
+main_file_0.p8.q[9]       System        SLE      D       un1_q_6_s_8_S     9.745        6.132
+main_file_0.p8.pu_cnt     System        SLE      EN      N_120_i           9.662        6.351
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      4.139
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 5.606
+
+    Number of logic level(s):                5
+    Starting point:                          main_file_0.p1.rest_enable / Q
+    Ending point:                            main_file_0.p8.spi0.shreg1[23] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            clkdiv|a2_inferred_clock [falling] on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+main_file_0.p1.rest_enable                    SLE      Q        Out     0.108     0.108       -         
+rest_enable1                                  Net      -        -       1.126     -           24        
+main_file_0.p8.spi0.g0_18                     CFG4     D        In      -         1.234       -         
+main_file_0.p8.spi0.g0_18                     CFG4     Y        Out     0.326     1.561       -         
+N_60                                          Net      -        -       0.792     -           7         
+main_file_0.p8.spi0.shreg1_m5_e               CFG2     A        In      -         2.353       -         
+main_file_0.p8.spi0.shreg1_m5_e               CFG2     Y        Out     0.100     2.453       -         
+shreg1_m6_i_a3_0                              Net      -        -       0.678     -           3         
+main_file_0.p8.spi0.shreg1_55_0_RNO_0[23]     CFG3     A        In      -         3.132       -         
+main_file_0.p8.spi0.shreg1_55_0_RNO_0[23]     CFG3     Y        Out     0.100     3.232       -         
+shreg1_55_0_RNO_0[23]                         Net      -        -       0.556     -           1         
+main_file_0.p8.spi0.shreg1_55_0_RNO[23]       CFG4     B        In      -         3.788       -         
+main_file_0.p8.spi0.shreg1_55_0_RNO[23]       CFG4     Y        Out     0.148     3.936       -         
+shreg1_55_0_0[23]                             Net      -        -       0.000     -           1         
+main_file_0.p8.spi0.shreg1_55_0[23]           CFG3     C        In      -         3.936       -         
+main_file_0.p8.spi0.shreg1_55_0[23]           CFG3     Y        Out     0.203     4.139       -         
+shreg1_55[23]                                 Net      -        -       0.000     -           1         
+main_file_0.p8.spi0.shreg1[23]                SLE      D        In      -         4.139       -         
+========================================================================================================
+Total path delay (propagation time + setup) of 4.394 is 1.242(28.3%) logic and 3.153(71.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 162MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 162MB)
+
+---------------------------------------
+Resource Usage Report for TOP 
+
+Mapping to part: m2gl005tq144std
+Cell usage:
+CLKINT          5 uses
+XTLOSC          1 use
+XTLOSC_FAB      1 use
+CFG1           22 uses
+CFG2           70 uses
+CFG3           71 uses
+CFG4           199 uses
+
+Carry cells:
+ARI1            42 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            166 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 14
+I/O primitives: 12
+INBUF          9 uses
+OUTBUF         3 uses
+
+
+Global Clock Buffers: 5 of 8 (62%)
+
+
+Total LUTs:    404
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  166 + 0 + 0 + 0 = 166;
+Total number of LUTs after P&R:  404 + 0 + 0 + 0 = 404;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 30MB peak: 162MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Mar 15 12:41:18 2019
+
+###########################################################]

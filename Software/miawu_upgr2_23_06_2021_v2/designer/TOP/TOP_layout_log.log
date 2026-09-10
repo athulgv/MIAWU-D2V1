@@ -1,0 +1,100 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 32 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.1.0 
+Design: TOP                             Started: Thu Sep 10 15:18:34 2026
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: TOP                             
+Finished: Thu Sep 10 15:18:38 2026
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 99.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: main_file_0/spi1/path:Q
+       Net: main_file_0/spi1/path
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/pu_sd_0_0:Y
+       Net: main_file_0/spi1/spi0/pu_sd
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/load_0_0:Y
+       Net: main_file_0/spi1/spi0/load
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/un1_cs_rdint_2_0_a2_0_a4_0_a2:Y
+       Net: main_file_0/spi1/spi0/un1_cs_rdint_2_0_a2_0_a4_0_a2
+Clock pins: 1
+    Driver: main_file_0/spi1/rd_int:Q
+       Net: main_file_0/spi1/rd_int
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/un1_cs_ply_2_0_a2_0_a4_0_a2:Y
+       Net: main_file_0/spi1/spi0/un1_cs_ply_2_0_a2_0_a4_0_a2
+Clock pins: 1
+    Driver: main_file_0/spi1/spl:Q
+       Net: main_file_0/spi1/spl
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/un1_cs_path_2_0_a2_0_a4_0_a2:Y
+       Net: main_file_0/spi1/spi0/un1_cs_path_2_0_a2_0_a4_0_a2
+Clock pins: 1
+    Driver: main_file_0/spi1/spi0/un1_cs_pu_2_0_a2_0_a4_0_a2:Y
+       Net: main_file_0/spi1/spi0/un1_cs_pu_2_0_a2_0_a4_0_a2
+Clock pins: 1
+
+Router 
+Design: E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOPStarted: Thu Sep 10 15:18:41 2026
+
+
+Router completed successfully.
+
+Design: E:\MIAWU\03-08-2021\DARIN 2 V1 FPGA SOUCE\Software\miawu_upgr2_23_06_2021_v2\designer\TOP\TOP
+Finished: Thu Sep 10 15:18:44 2026
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
+Total Memory Usage: 258.7 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 941  | 6060  | 15.53      |
+| DFF           | 385  | 6060  | 6.35       |
+| I/O Register  | 0    | 252   | 0.00       |
+| Logic Element | 946  | 6060  | 15.61      |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  32   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
